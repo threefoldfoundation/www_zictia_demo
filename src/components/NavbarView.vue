@@ -29,15 +29,15 @@
         >
           <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
             <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
-            <a
-              href="#"
+            <router-link
+              to="/"
               class="inline-flex items-center border-b-2 border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900"
-              >Home</a
+              >Home</router-link
             >
-            <a
-              href="#"
+            <router-link
+              to="/about"
               class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
-              >About Us</a
+              >About Us</router-link
             >
             <Menu
               as="div"
@@ -68,8 +68,8 @@
                 >
                   <div class="py-1">
                     <MenuItem v-slot="{ active }">
-                      <a
-                        href="#"
+                      <router-link
+                        to="/organization_structure"
                         :class="[
                           active
                             ? 'bg-gray-100 text-gray-900'
@@ -78,20 +78,20 @@
                         ]"
                       >
                         Organization Structure
-                      </a>
+                      </router-link>
                     </MenuItem>
                   </div>
                   <div class="py-1">
                     <MenuItem v-slot="{ active }">
-                      <a
-                        href="#"
+                      <router-link
+                        to="/team_members"
                         :class="[
                           active
                             ? 'bg-gray-100 text-gray-900'
                             : 'text-gray-700',
                           'block px-4 py-2 text-sm',
                         ]"
-                        >Team Members</a
+                        >Team Members</router-link
                       >
                     </MenuItem>
                   </div>
@@ -128,8 +128,8 @@
                 >
                   <div class="py-1">
                     <MenuItem v-slot="{ active }">
-                      <a
-                        href="#"
+                      <router-link
+                        to="/vpn"
                         :class="[
                           active
                             ? 'bg-gray-100 text-gray-900'
@@ -138,92 +138,92 @@
                         ]"
                       >
                         VPN
-                      </a>
+                      </router-link>
                     </MenuItem>
                   </div>
                   <div class="py-1">
                     <MenuItem v-slot="{ active }">
-                      <a
-                        href="#"
+                      <router-link
+                        to="/ipmpls"
                         :class="[
                           active
                             ? 'bg-gray-100 text-gray-900'
                             : 'text-gray-700',
                           'block px-4 py-2 text-sm',
                         ]"
-                        >IP MPLS</a
+                        >IP MPLS</router-link
                       >
                     </MenuItem>
                   </div>
 
                   <div class="py-1">
                     <MenuItem v-slot="{ active }">
-                      <a
-                        href="#"
+                      <router-link
+                        to="colocation"
                         :class="[
                           active
                             ? 'bg-gray-100 text-gray-900'
                             : 'text-gray-700',
                           'block px-4 py-2 text-sm',
                         ]"
-                        >CO-Location</a
+                        >CO-Location</router-link
                       >
                     </MenuItem>
                   </div>
                   <div class="py-1">
                     <MenuItem v-slot="{ active }">
-                      <a
-                        href="#"
+                      <router-link
+                        to="/virtualmachine"
                         :class="[
                           active
                             ? 'bg-gray-100 text-gray-900'
                             : 'text-gray-700',
                           'block px-4 py-2 text-sm',
                         ]"
-                        >Virtual Machine</a
+                        >Virtual Machine</router-link
                       >
                     </MenuItem>
                   </div>
                   <div class="py-1">
                     <MenuItem v-slot="{ active }">
-                      <a
-                        href="#"
+                      <router-link
+                        to="/fiberLeaseServices"
                         :class="[
                           active
                             ? 'bg-gray-100 text-gray-900'
                             : 'text-gray-700',
                           'block px-4 py-2 text-sm',
                         ]"
-                        >Capacity Lease</a
+                        >Capacity Lease</router-link
                       >
                     </MenuItem>
                   </div>
                   <div class="py-1">
                     <MenuItem v-slot="{ active }">
-                      <a
-                        href="#"
+                      <router-link
+                        to="/internetservices"
                         :class="[
                           active
                             ? 'bg-gray-100 text-gray-900'
                             : 'text-gray-700',
                           'block px-4 py-2 text-sm',
                         ]"
-                        >Internet Services</a
+                        >Internet Services</router-link
                       >
                     </MenuItem>
                   </div>
                 </MenuItems>
               </transition>
             </Menu>
-            <a
-              href="#"
+            <router-link
+              to="/fiberRoutes"
               class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
-              >Fiber Routes</a
+              >Fiber Routes</router-link
             >
-            <a
-              href="#"
+            <router-link
+              to="/softnet_news"
               class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
-              >News &amp; Events</a
+              >News &amp; Events</router-link
             >
             <Menu
               as="div"
@@ -254,8 +254,8 @@
                 >
                   <div class="py-1">
                     <MenuItem v-slot="{ active }">
-                      <a
-                        href="#"
+                      <router-link
+                        to="/tender"
                         :class="[
                           active
                             ? 'bg-gray-100 text-gray-900'
@@ -264,64 +264,64 @@
                         ]"
                       >
                         Tender
-                      </a>
+                      </router-link>
                     </MenuItem>
                   </div>
                   <div class="py-1">
                     <MenuItem v-slot="{ active }">
-                      <a
-                        href="#"
+                      <router-link
+                        to="/legal_act"
                         :class="[
                           active
                             ? 'bg-gray-100 text-gray-900'
                             : 'text-gray-700',
                           'block px-4 py-2 text-sm',
                         ]"
-                        >Legalact</a
+                        >Legalact</router-link
                       >
                     </MenuItem>
                   </div>
 
                   <div class="py-1">
                     <MenuItem v-slot="{ active }">
-                      <a
-                        href="#"
+                      <router-link
+                        to="/bronchure"
                         :class="[
                           active
                             ? 'bg-gray-100 text-gray-900'
                             : 'text-gray-700',
                           'block px-4 py-2 text-sm',
                         ]"
-                        >Borchure</a
+                        >Borchure</router-link
                       >
                     </MenuItem>
                   </div>
                   <div class="py-1">
                     <MenuItem v-slot="{ active }">
-                      <a
-                        href="#"
+                      <router-link
+                        to="/form"
                         :class="[
                           active
                             ? 'bg-gray-100 text-gray-900'
                             : 'text-gray-700',
                           'block px-4 py-2 text-sm',
                         ]"
-                        >Form</a
+                        >Form</router-link
                       >
                     </MenuItem>
                   </div>
                 </MenuItems>
               </transition>
             </Menu>
-            <a
-              href="#"
+            <router-link
+              to="#"
               class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
-              >FAQ's</a
+              >FAQ's</router-link
             >
-            <a
-              href="#"
+            <router-link
+              to="/contact"
               class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
-              >Contact</a
+              >Contact</router-link
             >
           </div>
           <button
