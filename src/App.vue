@@ -1,5 +1,5 @@
 <template>
-  <NavbarView msg="Welcome to Your Vue.js App" />
+  <NavbarView />
   <router-view></router-view>
 </template>
 
