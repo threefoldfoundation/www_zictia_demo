@@ -12,7 +12,7 @@
               />
             </div>
           </div>
-          <div class="w-full md:w-1/2 px-4 mb-16 md:mb-0">
+          <div class="w-full md:w-1/2 px-4 mb-16 md:mb-0 sm:px-3 lg:px-28">
             <h2
               class="text-3xl md:text-3xl lg:text-5xl font-bold tracking-tight text-blue-800"
             >

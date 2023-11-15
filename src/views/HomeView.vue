@@ -3,6 +3,7 @@
   <HeaderContent />
   <HeaderWithBg />
   <FeaturesPage />
+  <HeaderWithBgRight />
 </template>
 
 <script>
@@ -10,6 +11,7 @@ import Sliderview from "@/components/Sliderview.vue";
 import HeaderContent from "@/components/HeaderContent.vue";
 import FeaturesPage from "@/components/FeaturesPage.vue";
 import HeaderWithBg from "@/components/HeaderWithBg.vue";
+import HeaderWithBgRight from "@/components/HeaderWithBgRight.vue";
 export default {
   name: "HomeView",
   components: {
@@ -17,6 +19,7 @@ export default {
     HeaderContent,
     FeaturesPage,
     HeaderWithBg,
+    HeaderWithBgRight,
   },
   data() {
     return {
