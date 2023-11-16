@@ -3,8 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "yarn run style:build && yarn serve",
-    "style:build": "npx tailwindcss -i ./src/assets/input.css -o ./public/assets/output.css",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
