@@ -1,0 +1,24 @@
+name: zictia.archive.tf
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  job_one:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: pushing latest change on zictia.archive.tf
+      uses: appleboy/ssh-action@master
+      with:
+        host: zictia.archive.tf
+        username: webuser
+        key: ${{ secrets.TF_SECRET }}
+        port: 34022
+        script: |
+          cd websites/www2/www_zictia_demo/
+          git log -1
+          git fetch
+          git reset --hard origin/master
+          yarn install
+          yarn build
