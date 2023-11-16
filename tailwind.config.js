@@ -1,13 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
-  content: ["./src/**/*.vue"],
-    theme: {
+  content: ["./src/**/*.{vue,js}"],
+  theme: {
     extend: {
-      fontFamily:{
-        'primary': ['Montserrat']
-      }
+      fontFamily: {
+        primary: ["Montserrat"],
+      },
     },
   },
-  
 };
