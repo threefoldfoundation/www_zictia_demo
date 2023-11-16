@@ -32,9 +32,17 @@ export default {
       sliderItems: [
         {
           bg: "home/home_header.png",
-          logo: "logo",
-          title: "title",
-          content: "content",
+          logo: "../assets/imgs/home/logo_white.png",
+          title: "Powering Innovation, Connecting Futures",
+          content:
+            "Catalyzing Zanzibar's Digital Transformation Journey Together.",
+        },
+        {
+          bg: "home/about_header.png",
+          logo: "../assets/imgs/home/logo_white.png",
+          title: "Powering Innovation, Connecting Futures",
+          content:
+            "Catalyzing Zanzibar's Digital Transformation Journey Together.",
         },
       ],
       backgroundItems: [

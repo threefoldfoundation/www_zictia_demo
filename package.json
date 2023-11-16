@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "style:dev": "npx tailwindcss -i ./src/assets/input.css -o ./public/css/output.css",
-    "start": "yarn run style:dev & yarn serve &",
+    "start": "yarn run style:dev & yarn serve",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
