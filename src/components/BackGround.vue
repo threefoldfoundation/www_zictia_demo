@@ -1,11 +1,24 @@
 <template>
-  <div
-    style="background-image: url('../assets/imgs/home/bottom.png'); width: 500px height:500px; background-size: cover"
-  >
-    <!-- <img
-      class="w-1/4 mx-auto object-cover my-2"
-      src="../assets/imgs/logo.png"
-      alt=""
-    /> -->
+  <div v-for="(background, i) in backgroundImg" :key="i">
+    <div
+      :style="{
+        'background-image':
+          'url(' + require('../assets/imgs/' + background.bg) + ')',
+      }"
+      style="
+        height: 45vh;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      "
+    ></div>
+    <div class="bg-blue-950 h-16"></div>
   </div>
 </template>
+
+<script>
+export default {
+  name: "BackGround",
+  props: ["backgroundImg"],
+};
+</script>

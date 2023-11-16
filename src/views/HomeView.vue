@@ -4,7 +4,7 @@
   <HeaderWithBg />
   <FeaturesPage />
   <HeaderWithBgRight />
-  <BackGround />
+  <BackGround :backgroundImg="backgroundItems" />
 </template>
 
 <script>
@@ -29,6 +29,14 @@ export default {
       sliderItems: [
         {
           bg: "home/home_header.png",
+          logo: "logo",
+          title: "title",
+          content: "content",
+        },
+      ],
+      backgroundItems: [
+        {
+          bg: "home/bottom.png",
           logo: "logo",
           title: "title",
           content: "content",
