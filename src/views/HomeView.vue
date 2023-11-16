@@ -4,6 +4,7 @@
   <HeaderWithBg />
   <FeaturesPage />
   <HeaderWithBgRight />
+  <TestimonialsPage />
   <BackGround :backgroundImg="backgroundItems" />
 </template>
 
@@ -13,6 +14,7 @@ import HeaderContent from "@/components/HeaderContent.vue";
 import FeaturesPage from "@/components/FeaturesPage.vue";
 import HeaderWithBg from "@/components/HeaderWithBg.vue";
 import HeaderWithBgRight from "@/components/HeaderWithBgRight.vue";
+import TestimonialsPage from "@/components/TestimonialsPage.vue";
 import BackGround from "@/components/BackGround.vue";
 export default {
   name: "HomeView",
@@ -22,6 +24,7 @@ export default {
     FeaturesPage,
     HeaderWithBg,
     HeaderWithBgRight,
+    TestimonialsPage,
     BackGround,
   },
   data() {
