@@ -20,15 +20,15 @@
           'background-image':
             'url(' + require('../assets/imgs/' + item.bg) + ')',
         }"
-        style="height: 75vh;"
+        style="height: 75vh"
       >
         <div
-          class="w-1/2 text-white leading-8"
+          class="lg:w-1/2 lg:text-left sm:text-center sm:w-full text-white leading-8"
           :class="{
-            'ml-28': i % 2 !== 0,
+            'lg:ml-28': i % 2 !== 0,
           }"
         >
-          <img src="../assets/imgs/home/logo_white.png" class="w-1/2" alt="" />
+          <img src="../assets/imgs/home/logo_white.png" class="h-full" alt="" />
           <h1 class="text-4xl font-bold max-w-md mb-3 mx-6">
             {{ item.title }}
           </h1>

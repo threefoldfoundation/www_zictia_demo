@@ -16,11 +16,11 @@
       </div>
       <ul
         role="list"
-        class="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
+        class="mx-auto mt-20 grid max-w-2xl lg:text-left text-center grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
       >
         <li>
           <img
-            class="w-full object-cover my-2"
+            class="w-full object-cover my-2 mx-auto"
             src="../assets/imgs/home/widget.png"
             alt=""
           />
@@ -39,7 +39,7 @@
         </li>
         <li>
           <img
-            class="w-full object-cover my-2"
+            class="w-full object-cover my-2 mx-auto"
             src="../assets/imgs/home/virtual.png"
             alt=""
           />
