@@ -125,7 +125,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 [class^="number-slide"],
 [class*=" number-slide"] {
   display: flex;
@@ -133,7 +133,7 @@ export default {
   font-size: 50px;
   color: #fff;
   font-weight: 500;
-  height: 75vh;
+  height: 75vh !important;
   max-height: 100vh;
 }
 
