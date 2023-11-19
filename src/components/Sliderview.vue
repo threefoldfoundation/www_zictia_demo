@@ -12,31 +12,42 @@
       >
         <div class="item-1 md:flex" :class="{ hidden: i % 2 == 0 }">
           <div
-            class="w-1/2 mx-auto text-center md:text-left"
+            class="lg:w-1/2 mx-auto text-center md:text-left px-3"
             v-if="i % 2 !== 0"
           >
-            <img :src="item.logo" class="w-full md:w-1/2" alt="" />
+            <img
+              :src="item.logo"
+              class="lg:mx-0 mx-auto w-2/3 md:w-1/2"
+              alt=""
+            />
             <h1
-              class="text-base md:text-4xl font-bold max-w-md mb-3 md:leading-10"
+              class="text-lg md:text-4xl font-bold max-w-md mb-3 md:leading-10"
             >
               {{ item.title }}
             </h1>
             <p
-              class="text-sm md:text-xl max-w-sm md:leading-8"
+              class="text-base md:text-xl max-w-sm md:leading-8"
               v-html="item.content"
             ></p>
           </div>
         </div>
         <div class="item-2 md:flex" :class="{ hidden: i % 2 !== 0 }">
-          <div class="w-1/2 mx-auto text-center md:text-left" v-if="i % 2 == 0">
-            <img :src="item.logo" class="w-full md:w-1/2" alt="" />
+          <div
+            class="lg:w-1/2 mx-auto text-center md:text-left px-3"
+            v-if="i % 2 == 0"
+          >
+            <img
+              :src="item.logo"
+              class="lg:mx-0 mx-auto w-2/3 md:w-1/2"
+              alt=""
+            />
             <h1
-              class="text-base md:text-4xl font-bold max-w-md mb-3 md:leading-10"
+              class="text-lg md:text-4xl font-bold max-w-md mb-3 md:leading-10"
             >
               {{ item.title }}
             </h1>
             <p
-              class="text-sm md:text-xl max-w-sm md:leading-8"
+              class="text-base md:text-xl max-w-sm md:leading-8"
               v-html="item.content"
             ></p>
           </div>
@@ -96,7 +107,7 @@ export default {
             if (mouseOver) return;
             timeout = setTimeout(() => {
               slider.next();
-            }, 5000);
+            }, 5000000);
           }
           slider.on("created", () => {
             slider.container.addEventListener("mouseover", () => {

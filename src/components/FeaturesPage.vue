@@ -25,7 +25,9 @@
             src="../assets/imgs/home/capacity.png"
             alt=""
           />
-          <p class="text-lg font-medium leading-7 my-2 text-blue-800">
+          <p
+            class="text-base lg:text-lg font-medium leading-7 my-2 text-blue-800"
+          >
             We offers superior infrastructure and services operating to serve
             both local and international customers...
           </p>
@@ -44,7 +46,9 @@
             src="../assets/imgs/home/internet.png"
             alt=""
           />
-          <p class="text-lg font-medium leading-7 my-2 text-blue-800">
+          <p
+            class="text-base lg:text-lg font-medium leading-7 my-2 text-blue-800"
+          >
             Essential services for government institutions, such as web
             services, and facilitating seamless video conferencing, and many
             more...
@@ -63,7 +67,9 @@
             src="../assets/imgs/home/virtual.png"
             alt=""
           />
-          <p class="text-lg font-medium leading-7 my-2 text-blue-800">
+          <p
+            class="text-base lg:text-lg font-medium leading-7 my-2 text-blue-800"
+          >
             We offer the best virtual server services for individual customers,
             SMEs as well as corporate customers...
             <br />
@@ -83,7 +89,9 @@
             src="../assets/imgs/home/widget.png"
             alt=""
           />
-          <p class="text-lg font-medium leading-7 my-2 text-blue-800">
+          <p
+            class="text-base lg:text-lg font-medium leading-7 my-2 text-blue-800"
+          >
             We offer the best virtual server services for individual customers,
             SMEs as well as corporate customers....
             <br />
@@ -103,7 +111,9 @@
             src="../assets/imgs/home/ip_mpls.png"
             alt=""
           />
-          <p class="text-lg font-medium leading-7 my-2 text-blue-800">
+          <p
+            class="text-base lg:text-lg font-medium leading-7 my-2 text-blue-800"
+          >
             Technology which allows very fast switching of data. It delivers
             huge perfomance benefits as well as the flexibility....
           </p>
@@ -121,7 +131,9 @@
             src="../assets/imgs/home/private_vpn.png"
             alt=""
           />
-          <p class="text-lg font-medium leading-7 my-2 text-blue-800">
+          <p
+            class="text-base lg:text-lg font-medium leading-7 my-2 text-blue-800"
+          >
             Forwading all network traffic to VPN network, access local network
             resources remotely and bypass internet censorship...
           </p>
