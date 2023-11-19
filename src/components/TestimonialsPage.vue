@@ -253,7 +253,15 @@ export default {
       {
         loop: true,
         mode: "free",
-        slides: { origin: "center", perView: 3, spacing: 18 },
+        breakpoints: {
+          "(min-width: 400px)": {
+            slides: { perView: 2, spacing: 5 },
+          },
+          "(min-width: 1000px)": {
+            slides: { perView: 3, spacing: 10 },
+          },
+        },
+        slides: { perView: 1 },
         range: {
           min: -5,
           max: 5,
