@@ -8,6 +8,7 @@
 <script>
 import NavbarView from "./components/NavbarView.vue";
 import FooterView from "./components/FooterView.vue";
+import "./assets/input.css";
 
 export default {
   name: "App",

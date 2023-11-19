@@ -1,129 +1,171 @@
 <template>
-  <div class="carousel">
-    <div class="carousel-inner" v-for="(item, i) in items" :key="i">
-      <input
-        class="carousel-open"
-        type="radio"
-        :id="`carousel-${i + 1}`"
-        name="carousel"
-        aria-hidden="true"
-        hidden=""
-        checked="checked"
-      />
+  <div class="navigation-wrapper">
+    <div ref="slider" class="keen-slider">
       <div
-        class="carousel-item flex items-center bg-cover bg-center"
-        :class="{
-          'justify-end': i % 2 === 0,
-          'justify-start': i % 2 !== 0,
-        }"
+        v-for="(item, i) in items"
+        :key="i"
+        class="keen-slider__slide number-slide1 bg-cover"
         :style="{
           'background-image':
             'url(' + require('../assets/imgs/' + item.bg) + ')',
         }"
-        style="height: 75vh"
       >
-        <div
-          class="lg:w-1/2 lg:text-left sm:text-center sm:w-full text-white leading-8"
-          :class="{
-            'lg:ml-28': i % 2 !== 0,
-          }"
-        >
-          <img src="../assets/imgs/home/logo_white.png" class="h-full" alt="" />
-          <h1 class="text-4xl font-bold max-w-md mb-3 mx-6">
-            {{ item.title }}
-          </h1>
-          <p class="text-2xl max-w-md mx-6" v-html="item.content"></p>
+        <div class="item-1 md:flex" :class="{ hidden: i % 2 !== 0 }">
+          <div
+            class="w-1/2 mx-auto text-center md:text-left"
+            v-if="i % 2 === 0"
+          >
+            <img :src="item.logo" class="w-full md:w-1/2" alt="" />
+            <h1
+              class="text-base md:text-4xl font-bold max-w-md mb-3 md:leading-10"
+            >
+              {{ item.title }}
+            </h1>
+            <p
+              class="text-sm md:text-xl max-w-sm md:leading-8"
+              v-html="item.content"
+            ></p>
+          </div>
+        </div>
+        <div class="item-2 md:flex" :class="{ hidden: i % 2 === 0 }">
+          <div
+            class="w-1/2 mx-auto text-center md:text-left"
+            v-if="i % 2 !== 0"
+          >
+            <img :src="item.logo" class="w-full md:w-1/2" alt="" />
+            <h1
+              class="text-base md:text-4xl font-bold max-w-md mb-3 md:leading-10"
+            >
+              {{ item.title }}
+            </h1>
+            <p
+              class="text-sm md:text-xl max-w-sm md:leading-8"
+              v-html="item.content"
+            ></p>
+          </div>
         </div>
       </div>
-      <ol class="carousel-indicators">
-        <li v-for="(item, i) in items" :key="i">
-          <label :for="`carousel-${i + 1}`" class="carousel-bullet">•</label>
-        </li>
-      </ol>
+    </div>
+    <div v-if="slider" class="dots">
+      <button
+        v-for="(_slide, idx) in dotHelper"
+        @click="slider.moveToIdx(idx)"
+        :class="{ dot: true, active: current === idx }"
+        :key="idx"
+      ></button>
     </div>
   </div>
 </template>
 
 <script>
+import "keen-slider/keen-slider.min.css";
+import KeenSlider from "keen-slider";
+
 export default {
   name: "SliderView",
   props: ["items"],
+  data() {
+    return {
+      current: 1,
+      slider: null,
+    };
+  },
+  computed: {
+    dotHelper() {
+      return this.slider
+        ? [...Array(this.slider.track.details.slides.length).keys()]
+        : [];
+    },
+  },
+  mounted() {
+    this.slider = new KeenSlider(
+      this.$refs.slider,
+      {
+        loop: true,
+        initial: this.current,
+        slideChanged: (s) => {
+          this.current = s.track.details.rel;
+        },
+      },
+      [
+        (slider) => {
+          let timeout;
+          let mouseOver = false;
+          function clearNextTimeout() {
+            clearTimeout(timeout);
+          }
+          function nextTimeout() {
+            clearTimeout(timeout);
+            if (mouseOver) return;
+            timeout = setTimeout(() => {
+              slider.next();
+            }, 5000);
+          }
+          slider.on("created", () => {
+            slider.container.addEventListener("mouseover", () => {
+              mouseOver = true;
+              clearNextTimeout();
+            });
+            slider.container.addEventListener("mouseout", () => {
+              mouseOver = false;
+              nextTimeout();
+            });
+            nextTimeout();
+          });
+          slider.on("dragStarted", clearNextTimeout);
+          slider.on("animationEnded", nextTimeout);
+          slider.on("updated", nextTimeout);
+        },
+      ]
+    );
+  },
+  beforeUnmount() {
+    if (this.slider) this.slider.destroy();
+  },
 };
 </script>
 
-<style scoped>
-.carousel {
-  position: relative;
-  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
-}
-
-.carousel-inner {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-}
-
-.carousel-open:checked + .carousel-item {
-  position: static;
-  opacity: 100;
-}
-
-.carousel-item {
-  position: absolute;
-  opacity: 0;
-  -webkit-transition: opacity 0.6s ease-out;
-  transition: opacity 0.6s ease-out;
-}
-
-#carousel-1:checked ~ .control-1,
-#carousel-2:checked ~ .control-2,
-#carousel-3:checked ~ .control-3 {
-  display: block;
-}
-
-.carousel-indicators {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  bottom: 2%;
-  left: 0;
-  right: 0;
-  text-align: center;
-  z-index: 10;
-}
-
-.carousel-indicators li {
-  display: inline-block;
-  margin: 0 5px;
-}
-
-.carousel-bullet {
+<style>
+[class^="number-slide"],
+[class*=" number-slide"] {
+  display: flex;
+  align-items: center;
+  font-size: 50px;
   color: #fff;
+  font-weight: 500;
+  height: 75vh;
+  max-height: 100vh;
+}
+
+.item-1,
+.item-2 {
+  flex: 1 1 25%;
+  color: #fff;
+}
+
+.navigation-wrapper {
+  position: relative;
+}
+.dots {
+  display: flex;
+  padding: 10px 0;
+  justify-content: center;
+  align-items: center;
+}
+.dot {
+  border: none;
+  width: 10px;
+  height: 10px;
+  background: #c5c5c5;
+  border-radius: 50%;
+  margin: 0 5px;
+  padding: 5px;
   cursor: pointer;
-  display: block;
-  font-size: 35px;
 }
-
-.carousel-bullet:hover {
-  color: #aaaaaa;
+.dot:focus {
+  outline: none;
 }
-
-#carousel-1:checked
-  ~ .control-1
-  ~ .carousel-indicators
-  li:nth-child(1)
-  .carousel-bullet,
-#carousel-2:checked
-  ~ .control-2
-  ~ .carousel-indicators
-  li:nth-child(2)
-  .carousel-bullet,
-#carousel-3:checked
-  ~ .control-3
-  ~ .carousel-indicators
-  li:nth-child(3)
-  .carousel-bullet {
-  color: #428bca;
+.dot.active {
+  background: #000;
 }
 </style>
