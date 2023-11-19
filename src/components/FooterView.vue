@@ -1,13 +1,15 @@
 <template>
   <footer class="bg-white" aria-labelledby="footer-heading">
     <div class="mx-auto max-w-7xl px-6 pb-8 pt-8 lg:px-8 lg:pt-16">
-      <div class="lg:grid lg:grid-cols-4 lg:gap-8">
+      <div class="lg:text-left text-center lg:grid lg:grid-cols-4 lg:gap-8">
         <div class="space-y-8">
-          <img
-            class="h-16 my-3"
-            src="../assets/imgs/logo.png"
-            alt="Company name"
-          />
+          <a href="#">
+            <img
+              class="h-16 my-3 mx-auto"
+              src="../assets/imgs/logo.png"
+              alt="Company name"
+            />
+          </a>
           <!-- <p class="text-sm leading-6 text-gray-600">
             Making the world a better place through constructing elegant
             hierarchies.
@@ -88,14 +90,14 @@
             </a>
           </div> -->
         </div>
-        <div class="text-blue-800 text-sm my-3 font-medium">
+        <div class="text-blue-800 text-sm my-3 font-medium mx-auto">
           <ul>
             <li>Zanzibar ICT Infrastructure Agency</li>
             <li>Mazizini, Zanzibar, Tanzania.</li>
             <li>P . O . Box: 1823</li>
           </ul>
         </div>
-        <div class="text-blue-800 text-sm my-3 font-medium">
+        <div class="text-blue-800 text-sm my-3 font-medium mx-auto">
           <ul>
             <li>
               <a
@@ -114,7 +116,7 @@
             <li class="font-semibold">+255 24 2235784</li>
           </ul>
         </div>
-        <div class="font-medium">
+        <div class="font-medium mx-auto my-3">
           <ul>
             <li>
               <a
