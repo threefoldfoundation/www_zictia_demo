@@ -10,10 +10,10 @@
             'url(' + require('../assets/imgs/' + item.bg) + ')',
         }"
       >
-        <div class="item-1 md:flex" :class="{ hidden: i % 2 !== 0 }">
+        <div class="item-1 md:flex" :class="{ hidden: i % 2 == 0 }">
           <div
             class="w-1/2 mx-auto text-center md:text-left"
-            v-if="i % 2 === 0"
+            v-if="i % 2 !== 0"
           >
             <img :src="item.logo" class="w-full md:w-1/2" alt="" />
             <h1
@@ -27,11 +27,8 @@
             ></p>
           </div>
         </div>
-        <div class="item-2 md:flex" :class="{ hidden: i % 2 === 0 }">
-          <div
-            class="w-1/2 mx-auto text-center md:text-left"
-            v-if="i % 2 !== 0"
-          >
+        <div class="item-2 md:flex" :class="{ hidden: i % 2 !== 0 }">
+          <div class="w-1/2 mx-auto text-center md:text-left" v-if="i % 2 == 0">
             <img :src="item.logo" class="w-full md:w-1/2" alt="" />
             <h1
               class="text-base md:text-4xl font-bold max-w-md mb-3 md:leading-10"
@@ -66,7 +63,7 @@ export default {
   props: ["items"],
   data() {
     return {
-      current: 1,
+      current: 0,
       slider: null,
     };
   },

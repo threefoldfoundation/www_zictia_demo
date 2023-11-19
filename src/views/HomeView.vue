@@ -31,18 +31,26 @@ export default {
     return {
       sliderItems: [
         {
+          bg: "home/home_header.png",
+          logo: require("../assets/imgs/home/logo_white.png"),
+          title: "Powering Innovation, Connecting Futures",
+          content:
+            "Catalyzing Zanzibar's Digital Transformation Journey Together.",
+        },
+        {
           bg: "home/about_header.png",
           logo: require("../assets/imgs/home/logo_white.png"),
           title: "Elevating Zanzibar's Connectivity",
           content:
             "Explore our story, mission, and the impactful role we play in shaping a digitally empowered future for all.",
         },
+
         {
-          bg: "home/home_header.png",
+          bg: "home/management_header.jpg",
           logo: require("../assets/imgs/home/logo_white.png"),
-          title: "Powering Innovation, Connecting Futures",
+          title: "Delve into the expertise behind ZICTIA's success",
           content:
-            "Catalyzing Zanzibar's Digital Transformation Journey Together.",
+            "Explore our dedicated management team and organizational members shaping the future of ICT infrastructure in Zanzibar.",
         },
       ],
       backgroundItems: [
