@@ -31,15 +31,15 @@ export default {
     return {
       sliderItems: [
         {
-          bg: "home/home_header.png",
-          logo: "../assets/imgs/home/logo_white.png",
-          title: "Powering Innovation, Connecting Futures",
+          bg: "home/about_header.png",
+          logo: require("../assets/imgs/home/logo_white.png"),
+          title: "Elevating Zanzibar's Connectivity",
           content:
-            "Catalyzing Zanzibar's Digital Transformation Journey Together.",
+            "Explore our story, mission, and the impactful role we play in shaping a digitally empowered future for all.",
         },
         {
-          bg: "home/about_header.png",
-          logo: "../assets/imgs/home/logo_white.png",
+          bg: "home/home_header.png",
+          logo: require("../assets/imgs/home/logo_white.png"),
           title: "Powering Innovation, Connecting Futures",
           content:
             "Catalyzing Zanzibar's Digital Transformation Journey Together.",
