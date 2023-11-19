@@ -230,6 +230,15 @@
       :key="idx"
     ></button>
   </div>
+
+  <div class="w-full md:w-auto py-1 md:py-0 md:mr-4 text-center my-5">
+    <button
+      type="button"
+      class="mt-2 rounded-md bg-blue-600 px-4 py-1.5 text-lg font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+    >
+      Read Customer’s Reviews
+    </button>
+  </div>
 </template>
 
 <script>

@@ -647,6 +647,11 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.my-5{
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
 .-mr-1{
   margin-right: -0.25rem;
 }
@@ -1163,11 +1168,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.antialiased{
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 .opacity-0{
   opacity: 0;
 }
@@ -1211,11 +1211,6 @@ video {
 
 .ring-opacity-5{
   --tw-ring-opacity: 0.05;
-}
-
-.grayscale{
-  --tw-grayscale: grayscale(100%);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .transition{

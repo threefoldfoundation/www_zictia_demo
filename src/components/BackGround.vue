@@ -1,5 +1,5 @@
 <template>
-  <div v-for="(background, i) in backgroundImg" :key="i">
+  <div v-for="(background, i) in backgroundImg" :key="i" class="my-5">
     <div
       :style="{
         'background-image':
