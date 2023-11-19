@@ -647,11 +647,6 @@ video {
   margin-bottom: 0.75rem;
 }
 
-.my-4{
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
 .-mr-1{
   margin-right: -0.25rem;
 }
@@ -686,10 +681,6 @@ video {
 
 .mt-6{
   margin-top: 1.5rem;
-}
-
-.mt-8{
-  margin-top: 2rem;
 }
 
 .block{
@@ -1083,10 +1074,6 @@ video {
   font-size: 1.953rem;
 }
 
-.text-4xl{
-  font-size: 2.441rem;
-}
-
 .text-base{
   font-size: 1rem;
 }
@@ -1176,6 +1163,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.antialiased{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .opacity-0{
   opacity: 0;
 }
@@ -1219,6 +1211,11 @@ video {
 
 .ring-opacity-5{
   --tw-ring-opacity: 0.05;
+}
+
+.grayscale{
+  --tw-grayscale: grayscale(100%);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .transition{
@@ -1427,10 +1424,6 @@ body {
   .sm\:pr-0{
     padding-right: 0px;
   }
-
-  .sm\:text-5xl{
-    font-size: 3.052rem;
-  }
 }
 
 @media (min-width: 768px){
@@ -1456,14 +1449,6 @@ body {
 
   .md\:w-auto{
     width: auto;
-  }
-
-  .md\:grid-cols-3{
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .md\:gap-8{
-    gap: 2rem;
   }
 
   .md\:py-0{
