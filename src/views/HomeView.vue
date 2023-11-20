@@ -1,6 +1,6 @@
 <template>
   <Sliderview :items="sliderItems" />
-  <HeaderContent />
+  <HeaderContent :headerContents="headerContentItems" />
   <HeaderWithBg />
   <FeaturesPage />
   <HeaderWithBgRight />
@@ -59,6 +59,15 @@ export default {
           logo: "logo",
           title: "title",
           content: "content",
+        },
+      ],
+      headerContentItems: [
+        {
+          photo: require("../assets/imgs/home/innovation.jpg"),
+          title: "Where Innovation meets Infrastructure",
+          content:
+            "Learn more about our mission to empower Zanzibar through cutting-edge ICT solutions and our vision for a digitally connected future. Explore our About page to dive deeper into our journey and commitments.",
+          button: "About ZICTIA",
         },
       ],
     };
