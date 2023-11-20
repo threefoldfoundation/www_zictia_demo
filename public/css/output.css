@@ -582,10 +582,6 @@ video {
   border-width: 0;
 }
 
-.static{
-  position: static;
-}
-
 .absolute{
   position: absolute;
 }
@@ -651,14 +647,14 @@ video {
   margin-bottom: 0.5rem;
 }
 
-.my-24{
-  margin-top: 6rem;
-  margin-bottom: 6rem;
-}
-
 .my-3{
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
+}
+
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .my-5{
@@ -1453,6 +1449,11 @@ body {
 }
 
 @media (min-width: 768px){
+  .md\:my-24{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+
   .md\:mb-0{
     margin-bottom: 0px;
   }
