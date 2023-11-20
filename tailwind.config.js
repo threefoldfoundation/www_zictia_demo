@@ -2,6 +2,7 @@
 
 module.exports = {
   content: ["./src/**/*.{vue,js}"],
+  purge: ["./src/views/*.{vue,js,jsx,ts,tsx}", "./src/assets/*.css"],
   theme: {
     extend: {
       fontFamily: {
