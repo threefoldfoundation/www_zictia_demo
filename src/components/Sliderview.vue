@@ -159,6 +159,7 @@ export default {
   padding: 10px 0;
   justify-content: center;
   align-items: center;
+  margin: 10px 0px;
 }
 .dot {
   border: none;
