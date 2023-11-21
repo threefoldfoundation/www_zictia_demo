@@ -17,7 +17,7 @@
             </div>
           </div>
           <div
-            class="w-full text-center md:text-left md:w-1/2 px-4 md:mb-0 sm:px-3 lg:px-28"
+            class="w-full text-center md:text-left md:w-1/2 md:mb-0 sm:px-3 px-8 md:px-16"
           >
             <h2
               class="text-3xl md:text-3xl lg:text-5xl leading-none font-bold tracking-tight text-blue-800"

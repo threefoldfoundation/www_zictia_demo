@@ -1,14 +1,19 @@
 <template>
   <AboutHeader :items="HeaderView" />
   <CallToaction :calltoactions="CallToactionitems" />
+  <HeaderWithBgRight :headerWithBgRights="headerWithBgRightItems" />
   <HeaderContent :headerContents="headerContentItems" />
+  <HeaderWithBg  :headerContentBlues="headerContentBlueItems" />
   <BackGround :backgroundImg="backgroundItems" />
+  
 </template>
 
 <script>
 import AboutHeader from "@/components/AboutHeader.vue";
 import CallToaction from "@/components/CallToaction.vue";
 import HeaderContent from "@/components/HeaderContent.vue";
+import HeaderWithBg from "@/components/HeaderWithBg.vue";
+import HeaderWithBgRight from "@/components/HeaderWithBgRight.vue";
 import BackGround from "@/components/BackGround.vue";
 export default {
   name: "AboutUs",
@@ -16,7 +21,9 @@ export default {
     AboutHeader,
     CallToaction,
     HeaderContent,
+    HeaderWithBg,
     BackGround,
+    HeaderWithBgRight,
   },
 
   data() {
@@ -53,6 +60,25 @@ export default {
           title: "Supporting You Around the Clock",
           content:
             "At ZICTIA, our dedicated team of technical experts is at your service 24/7, offering proactive support and solutions whenever you need them. We're not just about technology; we also focus on educating the public about the significance of ICT infrastructure and the proper utilization of our services. Together, we're building a digital-savvy Zanzibar.",
+        },
+      ],
+      headerContentBlueItems: [
+        {
+          photo: require("../assets/imgs/home/about_data.jpg"),
+          title: "Your Data's Safe Haven",
+          content:
+            "Explore our secure and fully operational Data Centre, your dependable data backup solution. Whether you're a public institution or a private entity, we offer a safe haven for your data, particularly for disaster recovery purposes. By partnering with us, you contribute to advancing Information and Communication Technology in our nation, where technology thrives with increased usage. ",
+            content2:"",
+          button: "",
+        },
+      ],
+      headerWithBgRightItems: [
+        {
+          photo: require("../assets/imgs/home/about_zictia.jpg"),
+          title: "Message from ZICTIA’s Executive Director",
+          content:
+            "Welcome to the Zanzibar ICT Infrastructure Agency (ZICTIA). Established on December 4, 2018, through Legal Notice No. 119 of 2018, ZICTIA is a government agency tasked with managing  Zanzibar's National Fiber backbone and Data Centre.",
+          button: "",
         },
       ],
     };

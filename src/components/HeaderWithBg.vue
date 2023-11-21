@@ -1,35 +1,36 @@
 <template>
   <section class="bg-blue-950">
-    <div class="py-6 md:py-20">
+    <div v-for="(headerContentBlue, i) in headerContentBlues"
+      :key="i" 
+    class="py-8 md:py-28">
       <div class="container px-4 mx-auto">
-        <div class="flex flex-wrap xl:items-center -mx-4">
+        <div class="flex flex-wrap items-center -mx-4">
           <div class="w-full md:w-1/2 px-4">
             <div class="relative mx-auto md:mr-0 max-w-max">
               <img
+                :src="headerContentBlue.photo"
                 class="relative w-full py-4 sm:my-4 lg:w-3/4 mx-auto"
-                src="../assets/imgs/home/data_center.png"
                 alt=""
               />
             </div>
           </div>
           <div
-            class="w-full md:w-1/2 px-4 mb-16 md:mb-0 sm:px-3 py-3 lg:px-28 lg:order-first"
+            class="w-full md:w-1/2 mb-16 md:mb-0 sm:px-3 px-8 md:px-16 py-3 lg:order-first"
           >
             <h2
               class="text-2xl md:text-3xl lg:text-5xl leading-none font-semibold tracking-tight text-white"
             >
-              ZICTIA’s Reliable, Secure and Innovative Data Center
+            {{ headerContentBlue.title }}
             </h2>
             <p
-              class="my-3 text-base lg:text-xl mx-auto font-normal leading-6 text-white"
+              class="mt-4 text-base lg:text-xl mx-auto font-normal leading-8 text-white"
+              v-html="headerContentBlue.content"
             >
-              Our Data Center is meticulously designed to provide secure,
-              scalable, and efficient data storage and management solutions;
-              your trusted partner in safeguarding your data, ensuring business
-              continuity, and supporting your digital ambitions.
-              <br />
-              Explore our cutting-edge infrastructure and discover how we're
-              shaping the future of data management in Zanzibar.
+            </p>
+            <p
+              class="mb-3 text-base lg:text-xl mx-auto font-normal leading-8 text-white"
+              v-html="headerContentBlue.content2"
+            >
             </p>
             <div class="flex flex-wrap">
               <div class="w-full md:w-auto py-1 md:py-0 md:mr-4">
@@ -37,7 +38,7 @@
                   type="button"
                   class="mt-2 rounded-md bg-blue-600 px-4 py-1.5 lg:text-lg text-base font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                 >
-                  Discover
+                {{ headerContentBlue.button }}
                 </button>
               </div>
               <div class="w-full md:w-auto py-1 md:py-0"></div>
@@ -48,3 +49,10 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  name: "HeaderWithBg",
+  props: ["headerContentBlues"],
+};
+</script>
