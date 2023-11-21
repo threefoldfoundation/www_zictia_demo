@@ -5,7 +5,7 @@
       :key="i"
       class="py-8 md:py-28"
     >
-      <div class="px-4 mx-auto">
+      <div class="container px-4 mx-auto">
         <div class="flex flex-wrap items-center -mx-4">
           <div class="w-full md:w-1/2 lg:px-4">
             <div class="relative mx-auto md:mr-0 max-w-max">
