@@ -652,14 +652,14 @@ video {
   margin-bottom: 0.75rem;
 }
 
-.my-4{
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
 .my-5{
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
+}
+
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .-mr-1{
@@ -700,6 +700,10 @@ video {
 
 .mt-6{
   margin-top: 1.5rem;
+}
+
+.mt-8{
+  margin-top: 2rem;
 }
 
 .block{
@@ -748,6 +752,10 @@ video {
 
 .w-2\/3{
   width: 66.666667%;
+}
+
+.w-3\/4{
+  width: 75%;
 }
 
 .w-5{
@@ -1452,6 +1460,11 @@ body {
     margin-bottom: 6rem;
   }
 
+  .md\:my-3{
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
   .md\:mb-0{
     margin-bottom: 0px;
   }
@@ -1603,6 +1616,10 @@ body {
 
   .lg\:text-left{
     text-align: left;
+  }
+
+  .lg\:text-3xl{
+    font-size: 1.953rem;
   }
 
   .lg\:text-5xl{

@@ -3,9 +3,9 @@
   <CallToaction :calltoactions="CallToactionitems" />
   <HeaderWithBgRight :headerWithBgRights="headerWithBgRightItems" />
   <HeaderContent :headerContents="headerContentItems" />
-  <HeaderWithBg  :headerContentBlues="headerContentBlueItems" />
+  <HeaderWithBg :headerContentBlues="headerContentBlueItems" />
+  <FeaturesPageCenter :Features="FeaturesItems" />
   <BackGround :backgroundImg="backgroundItems" />
-  
 </template>
 
 <script>
@@ -14,12 +14,14 @@ import CallToaction from "@/components/CallToaction.vue";
 import HeaderContent from "@/components/HeaderContent.vue";
 import HeaderWithBg from "@/components/HeaderWithBg.vue";
 import HeaderWithBgRight from "@/components/HeaderWithBgRight.vue";
+import FeaturesPageCenter from "@/components/FeaturesPageCenter.vue";
 import BackGround from "@/components/BackGround.vue";
 export default {
   name: "AboutUs",
   components: {
     AboutHeader,
     CallToaction,
+    FeaturesPageCenter,
     HeaderContent,
     HeaderWithBg,
     BackGround,
@@ -68,7 +70,7 @@ export default {
           title: "Your Data's Safe Haven",
           content:
             "Explore our secure and fully operational Data Centre, your dependable data backup solution. Whether you're a public institution or a private entity, we offer a safe haven for your data, particularly for disaster recovery purposes. By partnering with us, you contribute to advancing Information and Communication Technology in our nation, where technology thrives with increased usage. ",
-            content2:"",
+          content2: "",
           button: "",
         },
       ],
@@ -79,6 +81,26 @@ export default {
           content:
             "Welcome to the Zanzibar ICT Infrastructure Agency (ZICTIA). Established on December 4, 2018, through Legal Notice No. 119 of 2018, ZICTIA is a government agency tasked with managing  Zanzibar's National Fiber backbone and Data Centre.",
           button: "",
+        },
+      ],
+      FeaturesItems: [
+        {
+          title: "OBJECTIVE",
+          photo: require("../assets/imgs/home/objective.png"),
+          content:
+            "To establish a Point of Presence in all country's administrative districts and facilitate the implementation of e-government initiative.",
+        },
+        {
+          title: "MISSION",
+          photo: require("../assets/imgs/home/mission.png"),
+          content:
+            "To ensure institutions are connected to the IT infrastructure to facilitate the common systems that will promote ease access of service.",
+        },
+        {
+          title: "VISION",
+          photo: require("../assets/imgs/home/vision.png"),
+          content:
+            "To facilitate ICT infrastructure that help the Government to easy access and collect revenue to develop social and economic activity.",
         },
       ],
     };

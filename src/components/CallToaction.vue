@@ -2,7 +2,7 @@
   <div
     v-for="(calltoactio, i) in calltoactions"
     :key="i"
-    class="text-center container mx-auto my-4 md:my-24 lg:max-w-6xl"
+    class="text-center container mx-auto my-8 md:my-24 lg:max-w-6xl"
   >
     <h2
       class="text-3xl md:text-3xl lg:text-5xl mb-3 leading-none font-bold tracking-tight text-blue-800"

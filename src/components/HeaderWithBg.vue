@@ -25,16 +25,17 @@
               {{ headerContentBlue.title }}
             </h2>
             <p
-              class="mt-4 text-base lg:text-xl mx-auto font-normal leading-8 text-white"
+              class="mt-4 text-base lg:text-xl mx-auto font-normal leading-6 lg:leading-8 text-white"
               v-html="headerContentBlue.content"
             ></p>
             <p
-              class="mb-3 text-base lg:text-xl mx-auto font-normal leading-8 text-white"
+              class="mb-3 text-base lg:text-xl mx-auto font-normal leading-6 lg:leading-8 text-white"
               v-html="headerContentBlue.content2"
             ></p>
             <div class="flex flex-wrap">
               <div class="w-full md:w-auto py-1 md:py-0 md:mr-4">
                 <button
+                  v-if="headerContentBlue.button"
                   type="button"
                   class="mt-2 rounded-md bg-blue-600 px-4 py-1.5 lg:text-lg text-base font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                 >
