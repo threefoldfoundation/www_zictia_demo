@@ -32,7 +32,7 @@
             <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
             <router-link
               to="/"
-              class="inline-flex items-center border-b-2 border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900"
+              class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
               >Home</router-link
             >
             <router-link
@@ -315,7 +315,7 @@
               </transition>
             </Menu>
             <router-link
-              to="#"
+              to="/faq"
               class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
               >FAQ's</router-link
             >
@@ -563,3 +563,11 @@ export default {
   },
 };
 </script>
+<!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
+
+<style scoped>
+.router-link-active {
+  color: #111827;
+  border-color: #6366f1;
+}
+</style>
