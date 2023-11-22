@@ -3,7 +3,7 @@
     <div
       v-for="(headerContent, i) in headerContents"
       :key="i"
-      class="py-8 md:py-28"
+      class="py-8 md:py-20"
     >
       <div class="container px-4 mx-auto">
         <div class="flex flex-wrap items-center -mx-4">
@@ -20,7 +20,7 @@
             class="w-full text-center md:text-left md:w-1/2 md:mb-0 sm:px-3 px-8 md:px-16"
           >
             <h2
-              class="text-3xl md:text-3xl lg:text-5xl leading-none font-bold tracking-tight text-blue-800"
+              class="text-2xl my-3 md:text-3xl lg:text-5xl leading-none font-bold tracking-tight text-blue-800"
             >
               {{ headerContent.title }}
             </h2>

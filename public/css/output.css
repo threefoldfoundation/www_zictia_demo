@@ -674,6 +674,10 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.mb-4{
+  margin-bottom: 1rem;
+}
+
 .mt-0{
   margin-top: 0px;
 }
@@ -1034,11 +1038,6 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.py-24{
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
-
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -1049,11 +1048,6 @@ video {
   padding-bottom: 1rem;
 }
 
-.py-6{
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -1061,6 +1055,10 @@ video {
 
 .pb-4{
   padding-bottom: 1rem;
+}
+
+.pb-6{
+  padding-bottom: 1.5rem;
 }
 
 .pb-8{
@@ -1443,11 +1441,6 @@ body {
     padding-right: 1.5rem;
   }
 
-  .sm\:py-32{
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-  }
-
   .sm\:pr-0{
     padding-right: 0px;
   }
@@ -1493,14 +1486,24 @@ body {
     padding-bottom: 0px;
   }
 
+  .md\:py-12{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
   .md\:py-20{
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
 
-  .md\:py-28{
-    padding-top: 7rem;
-    padding-bottom: 7rem;
+  .md\:py-24{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .md\:py-4{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .md\:text-left{
@@ -1574,11 +1577,6 @@ body {
     gap: 2rem;
   }
 
-  .lg\:px-28{
-    padding-left: 7rem;
-    padding-right: 7rem;
-  }
-
   .lg\:px-4{
     padding-left: 1rem;
     padding-right: 1rem;
@@ -1592,6 +1590,11 @@ body {
   .lg\:py-16{
     padding-top: 4rem;
     padding-bottom: 4rem;
+  }
+
+  .lg\:py-24{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 
   .lg\:pt-16{
@@ -1617,11 +1620,5 @@ body {
 
   .lg\:leading-8{
     line-height: 2rem;
-  }
-}
-
-@media (min-width: 1280px){
-  .xl\:items-center{
-    align-items: center;
   }
 }
