@@ -12,7 +12,7 @@
         background-repeat: no-repeat;
       "
     ></div>
-    <div class="bg-blue-950 h-16"></div>
+    <!-- <div class="bg-blue-950 h-16"></div> -->
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
   <Disclosure as="nav" class="bg-white shadow" v-slot="{ open }">
-    <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+    <div class="mx-auto container px-4 sm:px-6 lg:px-8">
       <div class="relative flex h-16 justify-between">
         <div class="flex flex-1 sm:items-stretch sm:justify-start">
           <div class="flex flex-shrink-0 items-center">
@@ -28,25 +28,25 @@
         <div
           class="absolute right-0 flex items-center justify-center sm:items-stretch sm:justify-start pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"
         >
-          <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
+          <div class="hidden sm:ml-6 sm:flex sm:space-x-4">
             <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
             <router-link
               to="/"
-              class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+              class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-semibold text-gray-500 hover:border-gray-300 hover:text-gray-700"
               >Home</router-link
             >
             <router-link
               to="/about"
-              class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+              class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-semibold text-gray-500 hover:border-gray-300 hover:text-gray-700"
               >About Us</router-link
             >
             <Menu
               as="div"
-              class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+              class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-semibold text-gray-500 hover:border-gray-300 hover:text-gray-700"
             >
               <div>
                 <MenuButton
-                  class="inline-flex w-full justify-center gap-x-1.5 bg-white text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+                  class="inline-flex w-full justify-center gap-x-1.5 bg-white text-sm font-semibold text-gray-500 hover:border-gray-300 hover:text-gray-700"
                 >
                   Management
                   <ChevronDownIcon
@@ -102,11 +102,11 @@
 
             <Menu
               as="div"
-              class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+              class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-semibold text-gray-500 hover:border-gray-300 hover:text-gray-700"
             >
               <div>
                 <MenuButton
-                  class="inline-flex w-full justify-center gap-x-1.5 bg-white text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+                  class="inline-flex w-full justify-center gap-x-1.5 bg-white text-sm font-semibold text-gray-500 hover:border-gray-300 hover:text-gray-700"
                 >
                   Our Services
                   <ChevronDownIcon
@@ -218,21 +218,21 @@
             </Menu>
             <router-link
               to="/fiberRoutes"
-              class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+              class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-semibold text-gray-500 hover:border-gray-300 hover:text-gray-700"
               >Fiber Routes</router-link
             >
             <router-link
               to="/softnet_news"
-              class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+              class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-semibold text-gray-500 hover:border-gray-300 hover:text-gray-700"
               >News &amp; Events</router-link
             >
             <Menu
               as="div"
-              class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+              class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-semibold text-gray-500 hover:border-gray-300 hover:text-gray-700"
             >
               <div>
                 <MenuButton
-                  class="inline-flex w-full justify-center gap-x-1.5 bg-white text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+                  class="inline-flex w-full justify-center gap-x-1.5 bg-white text-sm font-semibold text-gray-500 hover:border-gray-300 hover:text-gray-700"
                 >
                   Documents
                   <ChevronDownIcon
@@ -316,12 +316,12 @@
             </Menu>
             <router-link
               to="/faq"
-              class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+              class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-semibold text-gray-500 hover:border-gray-300 hover:text-gray-700"
               >FAQ's</router-link
             >
             <router-link
               to="/contact"
-              class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+              class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-semibold text-gray-500 hover:border-gray-300 hover:text-gray-700"
               >Contact</router-link
             >
           </div>
@@ -343,17 +343,17 @@
         <li
           v-for="(item, index) in navItems"
           :key="index"
-          class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700"
+          class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-semibold text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700"
         >
           <Menu
             v-if="item.children"
             as="div"
-            class="inline-flex items-center border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+            class="inline-flex items-center border-transparent px-1 pt-1 text-sm font-semibold text-gray-500 hover:border-gray-300 hover:text-gray-700"
           >
             <div>
               <MenuButton
                 @click="setActive(index)"
-                class="inline-flex w-full justify-center gap-x-1.5 text-base font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+                class="inline-flex w-full justify-center gap-x-1.5 text-base font-semibold text-gray-500 hover:border-gray-300 hover:text-gray-700"
               >
                 {{ item.name }}
                 <ChevronDownIcon

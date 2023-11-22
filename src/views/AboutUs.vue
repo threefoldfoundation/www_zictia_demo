@@ -5,6 +5,7 @@
   <HeaderContent :headerContents="headerContentItems" />
   <HeaderWithBg :headerContentBlues="headerContentBlueItems" />
   <FeaturesPageCenter :Features="FeaturesItems" />
+  <FeaturesLogo :Featureslogos="FeatureslogosItems" />
   <BackGround :backgroundImg="backgroundItems" />
 </template>
 
@@ -15,6 +16,7 @@ import HeaderContent from "@/components/HeaderContent.vue";
 import HeaderWithBg from "@/components/HeaderWithBg.vue";
 import HeaderWithBgRight from "@/components/HeaderWithBgRight.vue";
 import FeaturesPageCenter from "@/components/FeaturesPageCenter.vue";
+import FeaturesLogo from "@/components/FeaturesLogo.vue";
 import BackGround from "@/components/BackGround.vue";
 export default {
   name: "AboutUs",
@@ -26,6 +28,7 @@ export default {
     HeaderWithBg,
     BackGround,
     HeaderWithBgRight,
+    FeaturesLogo,
   },
 
   data() {
@@ -101,6 +104,29 @@ export default {
           photo: require("../assets/imgs/home/vision.png"),
           content:
             "To facilitate ICT infrastructure that help the Government to easy access and collect revenue to develop social and economic activity.",
+        },
+      ],
+      FeatureslogosItems: [
+        {
+          title: "Ahmed Abdulkadir",
+          title2: "ICT Officer at ZATICO",
+          photo: require("../assets/imgs/home/Ellipse1.png"),
+          content:
+            "“Zictia is attentive, personable and professional. The team provided great support for my company's needs.”",
+        },
+        {
+          title: "Yahya Ali",
+          title2: " ICT Officer at OR-TMSMIM",
+          photo: require("../assets/imgs/home/Ellipse2.png"),
+          content:
+            "“The team is always available to answer any questions. ZICTIA is very knowledgeable about the services they provide.”",
+        },
+        {
+          title: "Ahmed Abdulkadir",
+          title2: "ICT Officer at ZATICO",
+          photo: require("../assets/imgs/home/Ellipse1.png"),
+          content:
+            "“Zictia is attentive, personable and professional. The team provided great support for my company's needs.”",
         },
       ],
     };
