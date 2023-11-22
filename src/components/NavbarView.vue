@@ -547,7 +547,6 @@ export default {
     setActive(index) {
       this.active = index;
       this.open = !this.open;
-      this.isOpen = !this.isOpen;
     },
     close(e) {
       if (!this.$el.contains(e.target)) {

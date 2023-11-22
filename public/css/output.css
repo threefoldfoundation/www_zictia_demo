@@ -652,6 +652,11 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .my-5{
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
@@ -1499,7 +1504,6 @@ body {
     padding-bottom: 0px;
   }
 
-<<<<<<< HEAD
   .md\:py-12{
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -1518,11 +1522,6 @@ body {
   .md\:py-4{
     padding-top: 1rem;
     padding-bottom: 1rem;
-=======
-  .md\:py-28{
-    padding-top: 7rem;
-    padding-bottom: 7rem;
->>>>>>> b95c891 (update navbar)
   }
 
   .md\:text-left{
