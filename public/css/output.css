@@ -611,16 +611,16 @@ video {
   bottom: 0px;
 }
 
-.left-0{
-  left: 0px;
-}
-
 .right-0{
   right: 0px;
 }
 
 .top-12{
   top: 3rem;
+}
+
+.top-48{
+  top: 12rem;
 }
 
 .z-10{
@@ -1499,6 +1499,7 @@ body {
     padding-bottom: 0px;
   }
 
+<<<<<<< HEAD
   .md\:py-12{
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -1517,6 +1518,11 @@ body {
   .md\:py-4{
     padding-top: 1rem;
     padding-bottom: 1rem;
+=======
+  .md\:py-28{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+>>>>>>> b95c891 (update navbar)
   }
 
   .md\:text-left{
