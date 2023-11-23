@@ -196,7 +196,7 @@
     <div class="bg-blue-950 py-8">
       <div class="mx-auto text-center max-w-7xl">
         <p class="text-sm leading-5 text-white">
-          &copy; 2020 Your Company, Inc. All rights reserved.
+          &copy; 2023 Zictia, Inc. All rights reserved.
         </p>
       </div>
     </div>
