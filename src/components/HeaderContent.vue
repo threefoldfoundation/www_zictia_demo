@@ -30,15 +30,15 @@
             ></p>
             <div class="flex flex-wrap">
               <div class="w-full md:w-auto py-1 md:py-0 md:mr-4">
-                <router-link :to="headerContent.link">
-                  <button
-                    v-if="headerContent.button"
-                    type="button"
-                    class="mt-2 rounded-md bg-blue-600 px-4 py-1.5 lg:text-lg text-base font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
-                  >
+                <button
+                  v-if="headerContent.button"
+                  type="button"
+                  class="mt-2 rounded-md bg-blue-600 px-4 py-1.5 lg:text-lg text-base font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+                >
+                  <router-link :to="headerContent.link">
                     {{ headerContent.button }}
-                  </button>
-                </router-link>
+                  </router-link>
+                </button>
               </div>
               <div class="w-full md:w-auto py-1 md:py-0"></div>
             </div>
