@@ -1,7 +1,7 @@
 <template>
   <Sliderview :items="sliderItems" />
   <HeaderContent :headerContents="headerContentItems" />
-  <HeaderWithBg  :headerContentBlues="headerContentBlueItems" />
+  <HeaderWithBg :headerContentBlues="headerContentBlueItems" />
   <FeaturesPage />
   <HeaderWithBgRight :headerWithBgRights="headerWithBgRightItems" />
   <TestimonialsPage />
@@ -68,6 +68,7 @@ export default {
           content:
             "Learn more about our mission to empower Zanzibar through cutting-edge ICT solutions and our vision for a digitally connected future. Explore our About page to dive deeper into our journey and commitments.",
           button: "About ZICTIA",
+          link: "/about",
         },
       ],
       headerContentBlueItems: [
@@ -76,7 +77,7 @@ export default {
           title: "ZICTIA’s Reliable, Secure and Innovative Data Center",
           content:
             "Our Data Center is meticulously designed to provide secure, scalable, and efficient data storage and management solutions; your trusted partner in safeguarding your data, ensuring business continuity, and supporting your digital ambitions. ",
-            content2:
+          content2:
             "Explore our cutting-edge infrastructure and discover how we're shaping the future of data management in Zanzibar",
           button: "Discover",
         },
