@@ -30,7 +30,7 @@
             ></p>
             <div class="flex flex-wrap">
               <div class="w-full md:w-auto py-1 md:py-0 md:mr-4">
-                <a v-bind:href="headerContent.link">
+                <router-link :to="headerContent.link">
                   <button
                     v-if="headerContent.button"
                     type="button"
@@ -38,7 +38,7 @@
                   >
                     {{ headerContent.button }}
                   </button>
-                </a>
+                </router-link>
               </div>
               <div class="w-full md:w-auto py-1 md:py-0"></div>
             </div>
