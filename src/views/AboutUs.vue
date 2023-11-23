@@ -1,5 +1,5 @@
 <template>
-  <AboutHeader :items="HeaderView" />
+  <HeaderSection :items="HeaderView" />
   <CallToaction :calltoactions="CallToactionitems" />
   <HeaderWithBgRight :headerWithBgRights="headerWithBgRightItems" />
   <HeaderContent :headerContents="headerContentItems" />
@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import AboutHeader from "@/components/AboutHeader.vue";
+import HeaderSection from "@/components/HeaderSection.vue";
 import CallToaction from "@/components/CallToaction.vue";
 import HeaderContent from "@/components/HeaderContent.vue";
 import HeaderWithBg from "@/components/HeaderWithBg.vue";
@@ -21,7 +21,7 @@ import BackGround from "@/components/BackGround.vue";
 export default {
   name: "AboutUs",
   components: {
-    AboutHeader,
+    HeaderSection,
     CallToaction,
     FeaturesPageCenter,
     HeaderContent,

@@ -19,7 +19,7 @@ const router = createRouter({
         {
           name: "Organization Structure",
           path: "/organization_structure",
-          //   component: () => import(".."),
+            component: () => import("../views/organization_structure.vue"),
         },
         {
           name: "Team Members",
