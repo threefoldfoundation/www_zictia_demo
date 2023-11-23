@@ -1,7 +1,6 @@
-import { createRouter, createWebHashHistory } from "vue-router";
+import { createRouter } from "vue-router";
 
 const router = createRouter({
-  history: createWebHashHistory(),
   routes: [
     {
       path: "/",
@@ -19,7 +18,7 @@ const router = createRouter({
         {
           name: "Organization Structure",
           path: "/organization_structure",
-            component: () => import("../views/organization_structure.vue"),
+          component: () => import("../views/organization_structure.vue"),
         },
         {
           name: "Team Members",
