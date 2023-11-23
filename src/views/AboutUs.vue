@@ -1,4 +1,5 @@
 <template>
+  <SmallBanner />
   <HeaderSection :items="HeaderView" />
   <CallToaction :calltoactions="CallToactionitems" />
   <HeaderWithBgRight :headerWithBgRights="headerWithBgRightItems" />
@@ -10,6 +11,7 @@
 </template>
 
 <script>
+import SmallBanner from "@/components/SmallBanner.vue";
 import HeaderSection from "@/components/HeaderSection.vue";
 import CallToaction from "@/components/CallToaction.vue";
 import HeaderContent from "@/components/HeaderContent.vue";
@@ -21,6 +23,7 @@ import BackGround from "@/components/BackGround.vue";
 export default {
   name: "AboutUs",
   components: {
+    SmallBanner,
     HeaderSection,
     CallToaction,
     FeaturesPageCenter,

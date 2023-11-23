@@ -1,7 +1,7 @@
 <template>
   <footer class="bg-white" aria-labelledby="footer-heading">
     <div class="mx-auto max-w-7xl px-6 pb-8 pt-8 lg:px-8 lg:pt-16">
-      <div class="lg:text-left text-center lg:grid lg:grid-cols-4 lg:gap-8">
+      <div class="lg:text-left text-center lg:grid lg:grid-cols-5 lg:gap-4">
         <div class="space-y-8">
           <a href="#">
             <img
@@ -151,6 +151,42 @@
                 href=""
                 class="text-sm font-semibold leading-6 text-blue-800 hover:text-blue-600"
                 >Privacy Policy</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="font-medium mx-auto my-3">
+          <ul>
+            <li>
+              <a
+                href="https://moic.go.tz/"
+                target="_blank"
+                class="text-sm font-semibold leading-6 text-blue-800 hover:text-blue-600"
+                >MOICT</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://threefold.io/"
+                target="_blank"
+                class="text-sm font-semibold leading-6 text-blue-800 hover:text-blue-600"
+                >Threefold</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://tcra.go.tz/"
+                target="_blank"
+                class="text-sm font-semibold leading-6 text-blue-800 hover:text-blue-600"
+                >TCRA</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://egaz.go.tz/"
+                target="_blank"
+                class="text-sm font-semibold leading-6 text-blue-800 hover:text-blue-600"
+                >EGAZ</a
               >
             </li>
           </ul>

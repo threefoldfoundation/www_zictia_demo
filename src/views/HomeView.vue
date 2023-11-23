@@ -1,4 +1,5 @@
 <template>
+  <SmallBanner />
   <Sliderview :items="sliderItems" />
   <HeaderContent :headerContents="headerContentItems" />
   <HeaderWithBg :headerContentBlues="headerContentBlueItems" />
@@ -9,6 +10,7 @@
 </template>
 
 <script>
+import SmallBanner from "@/components/SmallBanner.vue";
 import Sliderview from "@/components/Sliderview.vue";
 import HeaderContent from "@/components/HeaderContent.vue";
 import FeaturesPage from "@/components/FeaturesPage.vue";
@@ -19,6 +21,7 @@ import BackGround from "@/components/BackGround.vue";
 export default {
   name: "HomeView",
   components: {
+    SmallBanner,
     Sliderview,
     HeaderContent,
     FeaturesPage,

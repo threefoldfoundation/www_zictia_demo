@@ -1,16 +1,19 @@
 <template>
+  <SmallBanner />
   <HeaderSectionRight :items="HeaderView" />
   <HeaderContent :headerContents="headerContentItems" />
   <BackGround :backgroundImg="backgroundItems" />
 </template>
 
 <script>
+import SmallBanner from "@/components/SmallBanner.vue";
 import HeaderSectionRight from "@/components/HeaderSectionRight.vue";
 import HeaderContent from "@/components/HeaderContent.vue";
 import BackGround from "@/components/BackGround.vue";
 export default {
   name: "AboutUs",
   components: {
+    SmallBanner,
     HeaderSectionRight,
     HeaderContent,
     BackGround,

@@ -1167,6 +1167,10 @@ video {
   font-weight: 600;
 }
 
+.uppercase{
+  text-transform: uppercase;
+}
+
 .leading-5{
   line-height: 1.25rem;
 }
@@ -1189,6 +1193,10 @@ video {
 
 .tracking-tight{
   letter-spacing: -0.025em;
+}
+
+.tracking-wide{
+  letter-spacing: 0.025em;
 }
 
 .text-blue-800{
@@ -1607,12 +1615,12 @@ body {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .lg\:grid-cols-4{
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+  .lg\:grid-cols-5{
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
-  .lg\:gap-8{
-    gap: 2rem;
+  .lg\:gap-4{
+    gap: 1rem;
   }
 
   .lg\:px-4{
