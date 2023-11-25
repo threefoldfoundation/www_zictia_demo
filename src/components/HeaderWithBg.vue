@@ -25,11 +25,12 @@
               {{ headerContentBlue.title }}
             </h2>
             <p
-              class="mt-4 text-base lg:text-xl mx-auto font-normal leading-6 lg:leading-8 text-white"
+              class="mt-3 text-base lg:text-lg mx-auto font-normal leading-6 lg:leading-8 text-white"
               v-html="headerContentBlue.content"
             ></p>
+            <br />
             <p
-              class="mb-3 text-base lg:text-xl mx-auto font-normal leading-6 lg:leading-8 text-white"
+              class="mb-3 text-base lg:text-lg mx-auto font-normal leading-6 lg:leading-8 text-white"
               v-html="headerContentBlue.content2"
             ></p>
             <div class="flex flex-wrap">

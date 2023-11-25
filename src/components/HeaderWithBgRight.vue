@@ -25,7 +25,7 @@
               {{ headerWithBgRight.title }}
             </h2>
             <p
-              class="my-3 text-base lg:text-xl mx-auto font-normal leading-6 lg:leading-8 text-white"
+              class="my-3 text-base lg:text-lg mx-auto font-normal leading-6 lg:leading-8 text-white"
               v-html="headerWithBgRight.content"
             ></p>
             <div class="flex flex-wrap">

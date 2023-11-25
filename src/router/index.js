@@ -35,7 +35,7 @@ const router = createRouter({
         {
           name: "VPN",
           path: "/vpn",
-          //   component: () => import(".."),
+            component: () => import("../views/VPN.vue"),
         },
         {
           name: "IPMPLS",

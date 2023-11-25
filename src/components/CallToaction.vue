@@ -10,11 +10,11 @@
       {{ calltoactio.title }}
     </h2>
     <p
-      class="my-3 text-base px-3 lg:text-xl font-medium leading-6 lg:leading-8 text-blue-800"
+      class="my-3 text-base px-3 lg:text-lg font-medium leading-6 lg:leading-8 text-blue-800"
       v-html="calltoactio.content"
     ></p>
     <p
-      class="my-3 text-base mx-3 lg:text-xl font-medium leading-6 lg:leading-8 text-blue-800"
+      class="my-3 text-base mx-3 lg:text-lg font-medium leading-6 lg:leading-8 text-blue-800"
       v-html="calltoactio.content2"
     ></p>
   </div>

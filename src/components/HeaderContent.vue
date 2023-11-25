@@ -25,8 +25,13 @@
               {{ headerContent.title }}
             </h2>
             <p
-              class="my-3 text-base lg:text-xl mx-auto font-medium leading-6 lg:leading-8 text-blue-800"
+              class="mt-3 text-base lg:text-lg mx-auto font-medium leading-6 lg:leading-8 text-blue-800"
               v-html="headerContent.content"
+            ></p>
+            <br />
+            <p
+              class="mb-1 text-base lg:text-lg mx-auto font-medium leading-6 lg:leading-8 text-blue-800"
+              v-html="headerContent.content2"
             ></p>
             <div class="flex flex-wrap">
               <div class="w-full md:w-auto py-1 md:py-0 md:mr-4">
