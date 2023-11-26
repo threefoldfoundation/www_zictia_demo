@@ -71,12 +71,12 @@
                   >
                     <div class="py-1">
                       <MenuItem
+                        v-for="item in item.children"
+                        :key="item.name"
                         v-slot="{ active }"
-                        v-for="(element, id) in item.children"
-                        :key="id"
                       >
-                        <router-link
-                          :to="element.path"
+                        <a
+                          @click="routerLinkMethod(item.path)"
                           :class="[
                             active
                               ? 'bg-gray-100 text-gray-900'
@@ -84,8 +84,8 @@
                             'block px-4 py-2 text-sm',
                           ]"
                         >
-                          {{ element.name }}
-                        </router-link>
+                          {{ item.name }}
+                        </a>
                       </MenuItem>
                     </div>
                   </MenuItems>
@@ -151,8 +151,8 @@
                     v-for="element in item.children"
                     :key="element.name"
                   >
-                    <router-link
-                      :to="element.path"
+                    <a
+                      @click="routerLinkMethod(element.path)"
                       :class="[
                         active
                           ? 'bg-indigo-50 border-indigo-500 text-indigo-700'
@@ -161,7 +161,7 @@
                       ]"
                     >
                       {{ element.name }}
-                    </router-link>
+                    </a>
                   </MenuItem>
                 </div>
               </MenuItems>
@@ -178,17 +178,12 @@
 import {
   Disclosure,
   DisclosureButton,
-  // DisclosurePanel,
   Menu,
   MenuButton,
   MenuItem,
   MenuItems,
 } from "@headlessui/vue";
-import {
-  Bars3Icon,
-  // MagnifyingGlassIcon,
-  XMarkIcon,
-} from "@heroicons/vue/24/outline";
+import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 import { ChevronDownIcon } from "@heroicons/vue/20/solid";
 
 export default {
@@ -196,13 +191,11 @@ export default {
   components: {
     Disclosure,
     DisclosureButton,
-    // DisclosurePanel,
     Menu,
     MenuButton,
     MenuItem,
     MenuItems,
     Bars3Icon,
-    // MagnifyingGlassIcon,
     XMarkIcon,
     ChevronDownIcon,
   },
@@ -320,6 +313,9 @@ export default {
       if (!this.$el.contains(e.target)) {
         this.open = false;
       }
+    },
+    routerLinkMethod(href) {
+      this.$router.push(href);
     },
   },
 
