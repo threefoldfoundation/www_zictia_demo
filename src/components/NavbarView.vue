@@ -4,7 +4,7 @@
       <div class="relative flex h-16 justify-between">
         <div class="flex flex-1 sm:items-stretch sm:justify-start">
           <div class="flex flex-shrink-0 items-center">
-            <a href="#">
+            <a href="/">
               <img
                 class="h-8 w-auto"
                 src="../assets/imgs/logo.png"
