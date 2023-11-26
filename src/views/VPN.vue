@@ -57,6 +57,7 @@ export default {
       ],
       headerContentBlueItems: [
         {
+          id: "ip",
           photo: require("../assets/imgs/home/services_ip.png"),
           title: "IP-MPLS",
           content:
@@ -68,6 +69,7 @@ export default {
       ],
       headerContentItems2: [
         {
+          id: "location",
           photo: require("../assets/imgs/home/services_colocation.png"),
           title: "Co-Location",
           content:
@@ -78,6 +80,7 @@ export default {
       ],
       headerContentBlueItems2: [
         {
+          id: "vm",
           photo: require("../assets/imgs/home/services_vm.png"),
           title: "Virtual Machines (VM)",
           content:
@@ -89,6 +92,7 @@ export default {
       ],
       headerContentItems3: [
         {
+          id: "capacity",
           photo: require("../assets/imgs/home/services_capacity.png"),
           title: "Internet Capacity",
           content:
@@ -99,6 +103,7 @@ export default {
       ],
       headerContentBlueItems3: [
         {
+          id: "internet",
           photo: require("../assets/imgs/home/services_covernment.png"),
           title: "Internet for Governmental Purpose",
           content:

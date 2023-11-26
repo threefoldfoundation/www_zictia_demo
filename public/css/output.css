@@ -683,6 +683,10 @@ video {
   margin-right: -0.25rem;
 }
 
+.mb-1{
+  margin-bottom: 0.25rem;
+}
+
 .mb-16{
   margin-bottom: 4rem;
 }
@@ -709,6 +713,10 @@ video {
 
 .mt-20{
   margin-top: 5rem;
+}
+
+.mt-3{
+  margin-top: 0.75rem;
 }
 
 .mt-4{
@@ -1662,10 +1670,6 @@ body {
   .lg\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .lg\:text-xl{
-    font-size: 1.25rem;
   }
 
   .lg\:leading-8{

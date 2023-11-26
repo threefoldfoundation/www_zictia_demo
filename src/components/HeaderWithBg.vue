@@ -4,6 +4,7 @@
       v-for="(headerContentBlue, i) in headerContentBlues"
       :key="i"
       class="md:py-20"
+      v-bind:id="`${headerContentBlue.id}`"
     >
       <div class="container px-4 mx-auto">
         <div class="flex flex-wrap items-center -mx-4">
