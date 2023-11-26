@@ -21,7 +21,7 @@ import HeaderWithBg2 from "@/components/HeaderWithBg.vue";
 import HeaderWithBg3 from "@/components/HeaderWithBg.vue";
 import BackGround from "@/components/BackGround.vue";
 export default {
-  name: "VPN",
+  name: "OurServices",
   components: {
     SmallBanner,
     HeaderContent,

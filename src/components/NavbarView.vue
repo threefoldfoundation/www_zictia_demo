@@ -231,35 +231,39 @@ export default {
           ],
         },
         {
-          name: "Our Services",
-          path: "",
-          children: [
-            {
-              name: "VPN",
-              path: "/vpn",
-            },
-            {
-              name: "IP MPLS",
-              path: "/ipmpls",
-            },
-            {
-              name: "Co-Location",
-              path: "/colocation",
-            },
-            {
-              name: "Virtual Machine",
-              path: "/virtualmachine",
-            },
-            {
-              name: "Capacity Lease",
-              path: "/fiberLeaseServices",
-            },
-            {
-              name: "Internet Services",
-              path: "/internetservices",
-            },
-          ],
+          name: "Our Service",
+          path: "/our_services",
         },
+        // {
+        //   name: "Our Services",
+        //   path: "",
+        //   children: [
+        //     {
+        //       name: "VPN",
+        //       path: "/vpn",
+        //     },
+        //     {
+        //       name: "IP MPLS",
+        //       path: "/ipmpls",
+        //     },
+        //     {
+        //       name: "Co-Location",
+        //       path: "/colocation",
+        //     },
+        //     {
+        //       name: "Virtual Machine",
+        //       path: "/virtualmachine",
+        //     },
+        //     {
+        //       name: "Capacity Lease",
+        //       path: "/fiberLeaseServices",
+        //     },
+        //     {
+        //       name: "Internet Services",
+        //       path: "/internetservices",
+        //     },
+        //   ],
+        // },
         {
           name: "Fiber Routes",
           path: "/fiberRoutes",
