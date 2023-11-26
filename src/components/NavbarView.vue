@@ -1,5 +1,5 @@
 <template>
-  <Disclosure as="nav" class="bg-white shadow" v-slot="{ open }">
+  <Disclosure as="nav" class="bg-white shadow">
     <div class="mx-auto container px-4 sm:px-6 lg:px-8">
       <div class="relative flex h-16 justify-between">
         <div class="flex flex-1 sm:items-stretch sm:justify-start">
@@ -21,8 +21,7 @@
           >
             <span class="absolute -inset-0.5" />
             <span class="sr-only">Open main menu</span>
-            <Bars3Icon v-if="!open" class="block h-6 w-6" aria-hidden="true" />
-            <XMarkIcon v-else class="block h-6 w-6" aria-hidden="true" />
+            <Bars3Icon class="block h-6 w-6" aria-hidden="true" />
           </DisclosureButton>
         </div>
         <div
@@ -76,7 +75,7 @@
                         v-slot="{ active }"
                       >
                         <a
-                          @click="routerLinkMethod(item.path)"
+                          @click.prevent="routerLinkMethod(item.path)"
                           :class="[
                             active
                               ? 'bg-gray-100 text-gray-900'
@@ -142,7 +141,6 @@
               leave-to-class="transform opacity-0 scale-95"
             >
               <MenuItems
-                v-if="open"
                 class="absolute top-48 z-10 mt-2 w-56 divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
               >
                 <div class="py-1">
@@ -151,8 +149,8 @@
                     v-for="element in item.children"
                     :key="element.name"
                   >
-                    <a
-                      @click="routerLinkMethod(element.path)"
+                    <router-link
+                      :to="element.path"
                       :class="[
                         active
                           ? 'bg-indigo-50 border-indigo-500 text-indigo-700'
@@ -161,7 +159,7 @@
                       ]"
                     >
                       {{ element.name }}
-                    </a>
+                    </router-link>
                   </MenuItem>
                 </div>
               </MenuItems>
@@ -183,7 +181,7 @@ import {
   MenuItem,
   MenuItems,
 } from "@headlessui/vue";
-import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
+import { Bars3Icon } from "@heroicons/vue/24/outline";
 import { ChevronDownIcon } from "@heroicons/vue/20/solid";
 
 export default {
@@ -196,7 +194,6 @@ export default {
     MenuItem,
     MenuItems,
     Bars3Icon,
-    XMarkIcon,
     ChevronDownIcon,
   },
   data() {
@@ -316,6 +313,7 @@ export default {
     close(e) {
       if (!this.$el.contains(e.target)) {
         this.open = false;
+        this.isOpen = false;
       }
     },
     routerLinkMethod(href) {
@@ -328,6 +326,11 @@ export default {
   },
   beforeUnmount() {
     document.removeEventListener("click", this.close);
+  },
+  watch: {
+    $route() {
+      this.isOpen = !this.isOpen;
+    },
   },
 };
 </script>
