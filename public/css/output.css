@@ -868,6 +868,10 @@ video {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
+.flex-col{
+  flex-direction: column;
+}
+
 .flex-wrap{
   flex-wrap: wrap;
 }
@@ -1532,6 +1536,14 @@ body {
 
   .md\:w-auto{
     width: auto;
+  }
+
+  .md\:max-w-5xl{
+    max-width: 64rem;
+  }
+
+  .md\:max-w-full{
+    max-width: 100%;
   }
 
   .md\:px-16{

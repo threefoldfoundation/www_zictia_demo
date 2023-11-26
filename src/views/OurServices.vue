@@ -1,6 +1,6 @@
 <template>
   <SmallBanner />
-  <HeaderSection :items="HeaderView" />
+  <HeaderSectionCenter :items="HeaderViewCenter" />
   <HeaderContent :headerContents="headerContentItems" />
   <HeaderWithBg :headerContentBlues="headerContentBlueItems" />
   <HeaderContent2 :headerContents="headerContentItems2" />
@@ -12,7 +12,7 @@
 
 <script>
 import SmallBanner from "@/components/SmallBanner.vue";
-import HeaderSection from "@/components/HeaderSection.vue";
+import HeaderSectionCenter from "@/components/HeaderSectionCenter.vue";
 import HeaderContent from "@/components/HeaderContent.vue";
 import HeaderContent2 from "@/components/HeaderContent.vue";
 import HeaderContent3 from "@/components/HeaderContent.vue";
@@ -25,7 +25,7 @@ export default {
   components: {
     SmallBanner,
     HeaderContent,
-    HeaderSection,
+    HeaderSectionCenter,
     HeaderWithBg,
     HeaderContent2,
     HeaderWithBg2,
@@ -36,7 +36,7 @@ export default {
 
   data() {
     return {
-      HeaderView: [
+      HeaderViewCenter: [
         {
           bg: "home/services_header.png",
           logo: require("../assets/imgs/home/logo_white.png"),
