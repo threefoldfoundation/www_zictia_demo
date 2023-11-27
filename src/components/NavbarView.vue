@@ -201,6 +201,7 @@ export default {
       scrollPosition: null,
       headerHeight: 0,
       isOpen: false,
+      desktop: window.innerWidth > 480,
       search: "",
       open: false,
       active: null,
@@ -327,11 +328,15 @@ export default {
   beforeUnmount() {
     document.removeEventListener("click", this.close);
   },
-  // watch: {
-  //   $route() {
-  //     this.isOpen = !this.isOpen;
-  //   },
-  // },
+  watch: {
+    $route() {
+      if (this.desktop) {
+        this.isOpen = false;
+      } else {
+        this.isOpen = !this.isOpen;
+      }
+    },
+  },
 };
 </script>
 
