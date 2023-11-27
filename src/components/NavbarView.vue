@@ -200,7 +200,7 @@ export default {
     return {
       scrollPosition: null,
       headerHeight: 0,
-      isOpen: false,
+      isOpen: true,
       desktop: window.innerWidth > 480,
       search: "",
       open: false,
