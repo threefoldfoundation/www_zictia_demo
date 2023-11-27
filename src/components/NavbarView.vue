@@ -327,11 +327,11 @@ export default {
   beforeUnmount() {
     document.removeEventListener("click", this.close);
   },
-  watch: {
-    $route() {
-      this.isOpen = !this.isOpen;
-    },
-  },
+  // watch: {
+  //   $route() {
+  //     this.isOpen = !this.isOpen;
+  //   },
+  // },
 };
 </script>
 
