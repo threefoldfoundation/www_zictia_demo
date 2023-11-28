@@ -3,7 +3,7 @@
     <div
       v-for="(calltoactionblue, i) in calltoactionblues"
       :key="i"
-      class="text-white text-center container mx-auto lg:max-w-6xl"
+      class="text-white sm:mx-3 text-center container mx-auto lg:max-w-6xl"
     >
       <p
         class="md:mb-12 mb-6 text-base mx-3 lg:text-lg font-medium leading-6 lg:leading-8"
@@ -11,13 +11,13 @@
       ></p>
 
       <h2
-        class="text-2xl md:text-3xl lg:text-5xl my-3 leading-none font-bold tracking-tight"
+        class="text-2xl md:text-3xl lg:text-4xl my-3 leading-none font-bold tracking-tight"
       >
         {{ calltoactionblue.title }}
       </h2>
 
       <iframe
-        class="my-4 md:my-8"
+        class="my-6 md:my-8"
         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d38466.66579039967!2d39.210295!3d-6.199225!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185cdba0f57fac05%3A0xe6183b8532a857b5!2sZanzibar%20ICT%20Infrastructure%20Agency!5e1!3m2!1sen!2sus!4v1701179641781!5m2!1sen!2sus"
         width="100%"
         height="450"
