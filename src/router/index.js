@@ -72,7 +72,7 @@ const router = createRouter({
     {
       path: "/fiberRoutes",
       name: "FiberRoutes",
-      //   component: () => import(".."),
+        component: () => import("../views/FiberRoutes.vue"),
     },
     {
       path: "/softnet_news",

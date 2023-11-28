@@ -43,6 +43,8 @@ export default {
           title: "Tailored ICT Solutions for Zanzibar's Progress",
           content:
             "Embark on a journey through ZICTIA's diverse range of cutting-edge services,rafted to meet the dynamic needs of Zanzibar's evolving technological landscape",
+          blue_title:
+            "Our Comprehensive Services to Fulfill Your Digital Needs",
         },
       ],
       headerContentItems: [

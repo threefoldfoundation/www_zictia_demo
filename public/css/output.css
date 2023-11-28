@@ -699,6 +699,10 @@ video {
   margin-bottom: 1rem;
 }
 
+.mb-6{
+  margin-bottom: 1.5rem;
+}
+
 .mt-0{
   margin-top: 0px;
 }
@@ -1514,8 +1518,17 @@ body {
     margin-bottom: 0.75rem;
   }
 
+  .md\:my-8{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
   .md\:mb-0{
     margin-bottom: 0px;
+  }
+
+  .md\:mb-12{
+    margin-bottom: 3rem;
   }
 
   .md\:mr-0{
@@ -1538,8 +1551,8 @@ body {
     width: auto;
   }
 
-  .md\:max-w-5xl{
-    max-width: 64rem;
+  .md\:max-w-4xl{
+    max-width: 56rem;
   }
 
   .md\:px-16{
