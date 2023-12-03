@@ -77,7 +77,7 @@ const router = createRouter({
     {
       path: "/softnet_news",
       name: "SoftnetNews",
-      //   component: () => import(".."),
+        component: () => import("../views/SoftnetNews.vue"),
     },
     {
       path: "/documents",
