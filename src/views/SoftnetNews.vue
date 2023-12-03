@@ -1,14 +1,12 @@
 <template>
   <SmallBanner />
   <HeaderSection :items="HeaderView" />
-  <HeaderWithBgRight :headerWithBgRights="headerWithBgRightItems" />
   <BackGround :backgroundImg="backgroundItems" />
 </template>
 
 <script>
 import SmallBanner from "@/components/SmallBanner.vue";
 import HeaderSection from "@/components/HeaderSection.vue";
-import HeaderWithBgRight from "@/components/HeaderWithBgRight.vue";
 import BackGround from "@/components/BackGround.vue";
 export default {
   name: "AboutUs",
@@ -16,7 +14,6 @@ export default {
     SmallBanner,
     HeaderSection,
     BackGround,
-    HeaderWithBgRight,
   },
 
   data() {
@@ -36,15 +33,6 @@ export default {
           logo: "logo",
           title: "title",
           content: "content",
-        },
-      ],
-      headerWithBgRightItems: [
-        {
-          photo: require("../assets/imgs/home/news_meeting.png"),
-          title:
-            "ZICTIA Collaborates with SoftNet to Enhance DataCenter Infrastructure: Agreement Signing Meeting",
-          content: "",
-          button: "Read More",
         },
       ],
     };
