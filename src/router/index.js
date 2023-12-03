@@ -85,7 +85,7 @@ const router = createRouter({
         {
           name: "Tender",
           path: "/tender",
-          //   component: () => import(".."),
+            component: () => import("../views/Tender.vue"),
         },
         {
           name: "LegalAct",
