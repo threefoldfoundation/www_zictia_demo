@@ -1,18 +1,22 @@
 <template>
   <SmallBanner />
   <HeaderSection :items="HeaderView" />
+  <ListConent />
   <BackGround :backgroundImg="backgroundItems" />
 </template>
 
 <script>
+import ListConent from "@/components/ListConent.vue";
 import SmallBanner from "@/components/SmallBanner.vue";
 import HeaderSection from "@/components/HeaderSection.vue";
 import BackGround from "@/components/BackGround.vue";
+
 export default {
-  name: "AboutUs",
+  name: "TenderPage",
   components: {
     SmallBanner,
     HeaderSection,
+    ListConent,
     BackGround,
   },
 
