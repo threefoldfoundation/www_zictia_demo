@@ -28,7 +28,7 @@ const router = createRouter({
         },
       ],
     },
-     {
+    {
       path: "/our_services",
       name: "OurServices",
       component: () => import("../views/OurServices.vue"),
@@ -72,12 +72,18 @@ const router = createRouter({
     {
       path: "/fiberRoutes",
       name: "FiberRoutes",
-        component: () => import("../views/FiberRoutes.vue"),
+      component: () => import("../views/FiberRoutes.vue"),
     },
     {
       path: "/softnet_news",
       name: "SoftnetNews",
-        component: () => import("../views/SoftnetNews.vue"),
+      component: () => import("../views/SoftnetNews.vue"),
+    },
+    {
+      path: "/softnet_news/:name",
+      name: "PostDetails",
+      props: true,
+      component: () => import("../views/PostDetails.vue"),
     },
     {
       path: "/documents",
@@ -115,6 +121,9 @@ const router = createRouter({
       //   component: () => import(".."),
     },
   ],
+  scrollBehavior() {
+    return { top: 0 };
+  },
 });
 
 export default router;
