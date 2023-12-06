@@ -1,12 +1,12 @@
 <template>
   <SmallBanner />
   <HeaderSection :items="HeaderView" />
-  <ListConent />
+  <ListContent :tenders="tenders" />
   <BackGround :backgroundImg="backgroundItems" />
 </template>
 
 <script>
-import ListConent from "@/components/ListConent.vue";
+import ListContent from "@/components/ListContent.vue";
 import SmallBanner from "@/components/SmallBanner.vue";
 import HeaderSection from "@/components/HeaderSection.vue";
 import BackGround from "@/components/BackGround.vue";
@@ -16,7 +16,7 @@ export default {
   components: {
     SmallBanner,
     HeaderSection,
-    ListConent,
+    ListContent,
     BackGround,
   },
 
@@ -37,6 +37,23 @@ export default {
           logo: "logo",
           title: "title",
           content: "content",
+        },
+      ],
+      tenders: [
+        {
+          name: "PUBLIC NOTICE.",
+          url: "./files/TENDER/TENDER.docx",
+        },
+        { name: "SUPPLY OF FIBER EQUIPMENT.", url: "#" },
+        {
+          name:
+            "SUPPLY OF WOODEN POLES AND ITS TENSION HOOKS IN A FRAMEWORK CONTRACT.",
+          url: "./files/TENDER/Supply of Wooden Poles.pdf",
+        },
+        {
+          name:
+            "GENERAL PROCUREMENT NOTICE [GPN] FOR GOODS, WORKS AND NONCONSULTANCY SERVICES FOR THE FINANCIAL YEAR 2021/2022",
+          url: "./files/TENDER/GPN.pdf",
         },
       ],
     };
