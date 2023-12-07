@@ -71,6 +71,22 @@ export default {
           description:
             "This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text.",
         },
+        {
+          isFeatured: false,
+          image:
+            "https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&q=75&fit=crop&w=600",
+          title: "10 best smartphones for devs",
+          description:
+            "This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text.",
+        },
+        {
+          isFeatured: false,
+          image:
+            "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600",
+          title: "Working with legacy stacks",
+          description:
+            "This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text.",
+        },
       ],
     };
   },
