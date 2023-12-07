@@ -16,6 +16,15 @@ module.exports = {
         "4xl": "2.441rem",
         "5xl": "3.052rem",
       },
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 100 },
+        },
+      },
+      animation: {
+        fadeIn: "fadeIn 0.2s ease-in-out forwards",
+      },
     },
   },
 };

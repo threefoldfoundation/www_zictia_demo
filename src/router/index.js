@@ -91,7 +91,7 @@ const router = createRouter({
         {
           name: "TenderPage",
           path: "/tender",
-            component: () => import("../views/TenderPage.vue"),
+          component: () => import("../views/TenderPage.vue"),
         },
         {
           name: "LegalAct",
@@ -113,7 +113,7 @@ const router = createRouter({
     {
       path: "/faq",
       name: "FAQ",
-      //   component: () => import(".."),
+      component: () => import("../views/FAQ.vue"),
     },
     {
       path: "/contact",
