@@ -75,7 +75,7 @@
                         v-slot="{ active }"
                       >
                         <a
-                          @click.prevent="routerLinkMethod(item.path)"
+                          @click="routerLinkMethod(item.path)"
                           :class="[
                             active
                               ? 'bg-gray-100 text-gray-900'
