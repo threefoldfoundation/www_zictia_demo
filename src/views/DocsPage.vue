@@ -1,7 +1,7 @@
 <template>
   <SmallBanner />
   <HeaderSection :items="HeaderView" />
-  <ListContent :tenders="tenders" />
+  <ListContent :docs="$data[$props.docs]" />
   <BackGround :backgroundImg="backgroundItems" />
 </template>
 
@@ -19,7 +19,7 @@ export default {
     ListContent,
     BackGround,
   },
-
+  props: ["docs"],
   data() {
     return {
       HeaderView: [
@@ -39,12 +39,11 @@ export default {
           content: "content",
         },
       ],
-      tenders: [
+      tender: [
         {
           name: "PUBLIC NOTICE.",
           url: "./files/TENDER/TENDER.docx",
         },
-        { name: "SUPPLY OF FIBER EQUIPMENT.", url: "#" },
         {
           name:
             "SUPPLY OF WOODEN POLES AND ITS TENSION HOOKS IN A FRAMEWORK CONTRACT.",
@@ -54,6 +53,29 @@ export default {
           name:
             "GENERAL PROCUREMENT NOTICE [GPN] FOR GOODS, WORKS AND NONCONSULTANCY SERVICES FOR THE FINANCIAL YEAR 2021/2022",
           url: "./files/TENDER/GPN.pdf",
+        },
+      ],
+      legal_act: [
+        {
+          name:
+            "AN ACT TO ESTABLISH THE ZANZIBAR INFORMATION COMMUNICATION TECHNOLOGY INFRUSTRUCTURE AGENCY AND TO MAKE PROVISIONS FOR PROVIDING ICT INFRUSTRUCTURE SERVICES AND OTHER MATTERS CONNECTED THEREWITH.",
+          url: "./files/LEGAL_ACTS/LEGAL_ACT.pdf",
+        },
+      ],
+      brochure: [
+        {
+          name: "2021 BRONCHURE",
+          url: "./files/BROCHURES/2021.pdf",
+        },
+        {
+          name: "2019 BRONCHURE",
+          url: "./files/BROCHURES/2019BROCHURES.pdf",
+        },
+      ],
+      form: [
+        {
+          name: "ZICTIA SITE REQUEST FORM",
+          url: "./files/FORM/ZICTIASITEREQUESTFORM.pdf",
         },
       ],
     };

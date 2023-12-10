@@ -86,29 +86,10 @@ const router = createRouter({
       component: () => import("../views/PostDetails.vue"),
     },
     {
-      path: "/documents",
-      children: [
-        {
-          name: "TenderPage",
-          path: "/tender",
-          component: () => import("../views/TenderPage.vue"),
-        },
-        {
-          name: "LegalAct",
-          path: "/legal_act",
-          //   component: () => import(".."),
-        },
-        {
-          name: "Bronchure",
-          path: "/bronchure",
-          //   component: () => import(".."),
-        },
-        {
-          name: "Form",
-          path: "/form",
-          //   component: () => import(".."),
-        },
-      ],
+      name: "Documents",
+      path: "/:docs",
+      props: true,
+      component: () => import("../views/DocsPage.vue"),
     },
     {
       path: "/faq",

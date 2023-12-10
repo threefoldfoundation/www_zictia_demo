@@ -284,10 +284,10 @@ export default {
             },
             {
               name: "Brochure",
-              path: "/bronchure",
+              path: "/brochure",
             },
             {
-              name: "From",
+              name: "Form",
               path: "/form",
             },
           ],
