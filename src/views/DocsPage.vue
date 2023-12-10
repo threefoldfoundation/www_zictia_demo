@@ -39,7 +39,7 @@ export default {
           content: "content",
         },
       ],
-      tender: [
+      legal_tenders: [
         {
           name: "PUBLIC NOTICE.",
           url: "./files/TENDER/TENDER.docx",
@@ -55,14 +55,14 @@ export default {
           url: "./files/TENDER/GPN.pdf",
         },
       ],
-      legal_act: [
+      legal_acts: [
         {
           name:
             "AN ACT TO ESTABLISH THE ZANZIBAR INFORMATION COMMUNICATION TECHNOLOGY INFRUSTRUCTURE AGENCY AND TO MAKE PROVISIONS FOR PROVIDING ICT INFRUSTRUCTURE SERVICES AND OTHER MATTERS CONNECTED THEREWITH.",
           url: "./files/LEGAL_ACTS/LEGAL_ACT.pdf",
         },
       ],
-      brochure: [
+      brochures: [
         {
           name: "2021 BRONCHURE",
           url: "./files/BROCHURES/2021.pdf",
@@ -72,7 +72,7 @@ export default {
           url: "./files/BROCHURES/2019BROCHURES.pdf",
         },
       ],
-      form: [
+      request_Form: [
         {
           name: "ZICTIA SITE REQUEST FORM",
           url: "./files/FORM/ZICTIASITEREQUESTFORM.pdf",

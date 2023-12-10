@@ -275,20 +275,20 @@ export default {
           path: "",
           children: [
             {
-              name: "Tender",
-              path: "/tender",
+              name: "Legal Tenders",
+              path: "/legal_tenders",
             },
             {
-              name: "Legalact",
-              path: "/legal_act",
+              name: "Legal Acts",
+              path: "/legal_acts",
             },
             {
-              name: "Brochure",
-              path: "/brochure",
+              name: "Brochures",
+              path: "/brochures",
             },
             {
-              name: "Form",
-              path: "/form",
+              name: "Request Form",
+              path: "/request_Form",
             },
           ],
         },
