@@ -49,6 +49,7 @@ export default {
       ],
       headerContentItems: [
         {
+          id: "vpn",
           photo: require("../assets/imgs/home/services_vpn.png"),
           title: "VPN",
           content:

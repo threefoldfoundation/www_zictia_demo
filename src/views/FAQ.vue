@@ -1,43 +1,86 @@
 <template>
   <SmallBanner />
-  <Sliderview :items="sliderItems" />
-  <FAQAccordion />
+  <HeaderSection :items="HeaderView" />
+  <FAQAccordion :faqs="faqs" />
 </template>
 <script>
 import SmallBanner from "@/components/SmallBanner.vue";
-import Sliderview from "@/components/Sliderview.vue";
+import HeaderSection from "@/components/HeaderSection.vue";
 import FAQAccordion from "@/components/FAQAccordion.vue";
 export default {
   name: "FAQ",
   components: {
     SmallBanner,
-    Sliderview,
+    HeaderSection,
     FAQAccordion,
   },
   data() {
     return {
-      sliderItems: [
+      HeaderView: [
         {
-          bg: "home/home_header.png",
+          bg: "home/news_header.png",
           logo: require("../assets/imgs/home/logo_white.png"),
-          title: "Powering Innovation, Connecting Futures",
+          title: "Latest News and Innovations",
           content:
-            "Catalyzing Zanzibar's Digital Transformation Journey Together.",
+            "Stay at the forefront of technological advancements in Zanzibar by delving into ZICTIA's latest news",
+        },
+      ],
+      faqs: [
+        {
+          question: "What is ZICTIA?",
+          answer:
+            "Is an Agency responsible for managing Zanzibar National Fiber Backbone and Data Center. The Infrastructure will enhance usage of ICT applications for sustainable socio-econimic development, including implimentation of e-health, e-tax, e-learning and much more locally and globally.",
         },
         {
-          bg: "home/about_header.png",
-          logo: require("../assets/imgs/home/logo_white.png"),
-          title: "Elevating Zanzibar's Connectivity",
-          content:
-            "Explore our story, mission, and the impactful role we play in shaping a digitally empowered future for all.",
+          question: "What services are offered by ZICTIA?",
+          answer: [
+            {
+              title: "VPN Services",
+              hash: "#vpn",
+            },
+            {
+              title: "IP - MPLS",
+              hash: "#ip",
+            },
+            {
+              title: "Co-Location",
+              hash: "#location",
+            },
+            {
+              title: "Virtual Machine",
+              hash: "#vm",
+            },
+            {
+              title: "Capacity Lease",
+              hash: "#capacity",
+            },
+            {
+              title: "Internet Services",
+              hash: "#internet",
+            },
+            {
+              title: "Web Hosting",
+              url: "/faq",
+            },
+          ],
         },
-
         {
-          bg: "home/management_header.jpg",
-          logo: require("../assets/imgs/home/logo_white.png"),
-          title: "Delve into the expertise behind ZICTIA's success",
-          content:
-            "Explore our dedicated management team and organizational members shaping the future of ICT infrastructure in Zanzibar.",
+          question: "How many organizations have been connected to the fiber?",
+          answer:
+            "Currently, There are about 118 organizations on the fiber network.",
+        },
+        {
+          question: "How can I apply  for ZICTIA services?",
+          answer:
+            "By visiting the ZICTIA office at Mazizini, You will be provided with documents explaining about the full services provided. A team of technical experts will advice you based on your requirements.",
+        },
+        {
+          question: "What is the difference between ZICTIA and TCRA?",
+          answer: "",
+        },
+        {
+          question: "New Question?",
+          answer: "Not available",
         },
       ],
     };
