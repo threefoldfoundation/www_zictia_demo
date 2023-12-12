@@ -7,28 +7,40 @@
     >
       <div class="pb-4">
         <h2
+          v-if="calltoactionblue.title"
           class="text-2xl md:text-3xl lg:text-4xl my-4 leading-none font-bold tracking-tight"
         >
           {{ calltoactionblue.title }}
         </h2>
 
         <p
-          class="mb-3 text-base mx-3 lg:text-lg font-medium leading-6 lg:leading-8"
+          v-if="calltoactionblue.content"
+          class="mb-5 text-base mx-3 lg:text-lg font-medium leading-6 lg:leading-8"
           v-html="calltoactionblue.content"
         ></p>
       </div>
 
+      <a
+        v-if="calltoactionblue.button"
+        class="mt-2 rounded-md bg-blue-600 px-4 py-1.5 lg:text-lg text-base font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+        :href="calltoactionblue.buttonUrl"
+      >
+        {{ calltoactionblue.button }}
+      </a>
+
       <p
+        v-if="calltoactionblue.content2"
         class="md:mb-12 mb-6 text-base mx-3 lg:text-lg font-medium leading-6 lg:leading-8"
         v-html="calltoactionblue.content2"
       ></p>
 
       <iframe
+        v-if="calltoactionblue.iframe"
         class="my-6 md:my-8"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d507805.9206742061!2d39.051363792215874!3d-6.099187870905901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185d29602a2909e5%3A0xa035af4aad9b7d5f!2sUnguja!5e0!3m2!1sen!2seg!4v1701188843224!5m2!1sen!2seg"
+        :src="calltoactionblue.iframe"
         width="100%"
         height="450"
-        style="border: 0"
+        style="border: 0;"
         allowfullscreen=""
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
@@ -45,6 +57,7 @@
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe> -->
       <p
+        v-if="calltoactionblue.content3"
         class="my-3 text-base px-3 lg:text-lg font-medium leading-6 lg:leading-8"
         v-html="calltoactionblue.content3"
       ></p>
@@ -65,12 +78,14 @@
       ></iframe> -->
 
       <img
+        v-if="calltoactionblue.photo"
         :src="calltoactionblue.photo"
         class="relative w-full py-4 sm:my-4 mx-auto"
         alt=""
       />
 
       <p
+        v-if="calltoactionblue.content4"
         class="my-3 text-base mx-3 lg:text-lg font-medium leading-6 lg:leading-8"
         v-html="calltoactionblue.content4"
       ></p>

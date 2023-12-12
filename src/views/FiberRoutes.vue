@@ -35,6 +35,8 @@ export default {
         {
           photo: require("../assets/imgs/home/pemba.png"),
           title: "Fiber Routes Across Unguja and Pemba Island",
+          iframe:
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d507805.9206742061!2d39.051363792215874!3d-6.099187870905901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185d29602a2909e5%3A0xa035af4aad9b7d5f!2sUnguja!5e0!3m2!1sen!2seg!4v1701188843224!5m2!1sen!2seg",
           content:
             "ZICTIA is at the forefront of revolutionizing connectivity across the beautiful islands of Zanzibar. Our state-of-the-art Fiber Routes Network spans the archipelago, connecting Unguja and Pemba Islands with an intricate web of high-capacity, resilient fiber optic infrastructure. With a focus on cutting-edge technology, robust maintenance, and wide-reaching connectivity, we're redefining how Zanzibar stays digitally connected.",
           title2: "INSERT LIVE MAP HERE",

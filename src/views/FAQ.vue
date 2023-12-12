@@ -1,16 +1,19 @@
 <template>
   <SmallBanner />
   <HeaderSection :items="HeaderView" />
+  <CallToactionBlue :calltoactionblues="ctaContent" />
   <FAQAccordion :faqs="faqs" />
 </template>
 <script>
 import SmallBanner from "@/components/SmallBanner.vue";
+import CallToactionBlue from "@/components/CallToactionBlue.vue";
 import HeaderSection from "@/components/HeaderSection.vue";
 import FAQAccordion from "@/components/FAQAccordion.vue";
 export default {
   name: "FAQ",
   components: {
     SmallBanner,
+    CallToactionBlue,
     HeaderSection,
     FAQAccordion,
   },
@@ -23,6 +26,14 @@ export default {
           title: "Latest News and Innovations",
           content:
             "Stay at the forefront of technological advancements in Zanzibar by delving into ZICTIA's latest news",
+        },
+      ],
+      ctaContent: [
+        {
+          content:
+            "ZICTIA is at the forefront of revolutionizing connectivity across the beautiful islands of Zanzibar. Our state-of-the-art Fiber Routes Network spans the archipelago, connecting Unguja and Pemba Islands with an intricate web of high-capacity, resilient fiber optic infrastructure. With a focus on cutting-edge technology, robust maintenance, and wide-reaching connectivity, we're redefining how Zanzibar stays digitally connected.",
+          button: "Contact Us",
+          buttonUrl: "/",
         },
       ],
       faqs: [
