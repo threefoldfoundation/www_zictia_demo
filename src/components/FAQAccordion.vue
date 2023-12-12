@@ -9,25 +9,39 @@
         questions.
       </p>
     </div>
+
     <div class="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8">
       <div
+        class="py-5 rounded-lg bg-blue-950 p-5 text-white"
         v-for="(faq, id) in faqs"
         :key="id"
-        class="group flex flex-col rounded-lg bg-blue-950 p-5 text-white"
-        :tabindex="id + 1"
       >
-        <div class="flex cursor-pointer items-center justify-between">
-          <span> {{ faq.question }} </span>
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/9/96/Chevron-icon-drop-down-menu-WHITE.png"
-            class="h-2 w-3 transition-all duration-500 group-focus:-rotate-180"
-          />
-        </div>
-        <div
-          v-if="(faq.answer instanceof Array)"
-          class="invisible h-auto max-h-0 items-center opacity-0 transition-all group-focus:visible group-focus:max-h-screen group-focus:opacity-100 group-focus:duration-1000"
-        >
-          <ul class="py-2">
+        <details class="group">
+          <summary
+            class="flex justify-between items-center font-medium cursor-pointer list-none"
+          >
+            <span>{{ faq.question }}</span>
+            <span class="transition group-open:rotate-180">
+              <svg
+                fill="none"
+                height="24"
+                shape-rendering="geometricPrecision"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <path d="M6 9l6 6 6-6"></path>
+              </svg>
+            </span>
+          </summary>
+          <p
+            v-if="(faq.answer instanceof Array)"
+            class="text-white mt-3 group-open:animate-fadeIn"
+          >
+          <ul class="py-2 ">
             <li class="py-2" v-for="answer in faq.answer" :key="answer.title">
               <router-link
                 v-if="answer.hash"
@@ -39,16 +53,12 @@
               >
             </li>
           </ul>
-        </div>
-        <div
-          v-else
-          class="invisible h-auto max-h-0 items-center opacity-0 transition-all group-focus:visible group-focus:max-h-screen group-focus:opacity-100 group-focus:duration-1000"
-        >
-          <p
-            class="py-2"
+          </p>
+          <p v-else
+          class="py-2 text-white mt-3 group-open:animate-fadeIn"
             v-html="faq.answer.replaceAll(/\. /g, '. <br /><br />')"
-          ></p>
-        </div>
+          ></p>       
+         </details>
       </div>
     </div>
   </div>
