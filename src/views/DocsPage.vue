@@ -1,6 +1,6 @@
 <template>
   <SmallBanner />
-  <HeaderSection :items="HeaderView" />
+  <HeaderSectionCenter :items="HeaderViewCenter" />
   <ListContent :docs="$data[$props.docs]" />
   <BackGround :backgroundImg="backgroundItems" />
 </template>
@@ -8,27 +8,28 @@
 <script>
 import ListContent from "@/components/ListContent.vue";
 import SmallBanner from "@/components/SmallBanner.vue";
-import HeaderSection from "@/components/HeaderSection.vue";
+import HeaderSectionCenter from "@/components/HeaderSectionCenter.vue";
 import BackGround from "@/components/BackGround.vue";
 
 export default {
   name: "TenderPage",
   components: {
     SmallBanner,
-    HeaderSection,
+    HeaderSectionCenter,
     ListContent,
     BackGround,
   },
   props: ["docs"],
   data() {
     return {
-      HeaderView: [
+      HeaderViewCenter: [
         {
           bg: "home/docs_header.png",
           logo: require("../assets/imgs/home/logo_white.png"),
           title: "Documentation Hub",
           content:
             "Explore the comprehensive documentation provided by ZICTIA to access a treasure trove of useful information.",
+          blue_title: "",
         },
       ],
       backgroundItems: [

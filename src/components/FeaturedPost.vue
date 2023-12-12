@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-white py-6 sm:py-8 lg:py-12">
-    <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+  <div class="py-3 sm:py-8 lg:py-4 border border-blue-900 mb-8 rounded-lg">
+    <div class="mx-auto max-w-screen-2xl p-4">
       <div
         v-for="post in posts"
         :key="post.title"
@@ -22,7 +22,7 @@
         <!-- content - start -->
         <div class="flex w-full flex-col p-4 sm:w-1/2 sm:p-8 lg:w-3/5">
           <h2
-            class="mb-4 text-xl font-bold text-gray-800 md:text-2xl lg:text-4xl"
+            class="mb-4 text-3xl font-bold text-gray-800 md:text-2xl lg:text-4xl"
           >
             {{ post.title }}
           </h2>

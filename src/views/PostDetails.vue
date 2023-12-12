@@ -1,6 +1,6 @@
 <template>
   <div class="bg-white py-6 sm:py-8 lg:py-12">
-    <div class="mx-auto max-w-screen-md px-4 md:px-8">
+    <div class="mx-auto max-w-5xl px-4 md:px-8">
       <div
         class="relative mb-6 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:mb-8"
       >
