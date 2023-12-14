@@ -3,12 +3,14 @@
   <HeaderSection :items="HeaderView" />
   <CallToactionBlue :calltoactionblues="ctaContent" />
   <FAQAccordion :faqs="faqs" />
+  <ContactUs />
 </template>
 <script>
 import SmallBanner from "@/components/SmallBanner.vue";
 import CallToactionBlue from "@/components/CallToactionBlue.vue";
 import HeaderSection from "@/components/HeaderSection.vue";
 import FAQAccordion from "@/components/FAQAccordion.vue";
+import ContactUs from "@/components/ContactUs.vue";
 export default {
   name: "FAQ",
   components: {
@@ -16,6 +18,7 @@ export default {
     CallToactionBlue,
     HeaderSection,
     FAQAccordion,
+    ContactUs,
   },
   data() {
     return {
