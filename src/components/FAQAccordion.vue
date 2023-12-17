@@ -1,7 +1,7 @@
 <template>
-  <div class="max-w-screen-xl mx-auto px-5 bg-white min-h-sceen">
+  <div class="max-w-screen-xl my-12 mx-auto px-5 bg-white min-h-sceen">
     <div class="flex flex-col items-center">
-      <h2 class="text-2xl my-12 md:text-3xl lg:text-5xl leading-none font-bold tracking-tight text-blue-800">
+      <h2 class="text-2xl mb-6 md:text-3xl lg:text-5xl leading-none font-bold tracking-tight text-blue-800">
         FAQ
       </h2>
     </div>
