@@ -4,6 +4,7 @@
   <CallToactionBlue :calltoactionblues="ctaContent" />
   <FAQAccordion :faqs="faqs" />
   <ContactUs />
+  <BackGround :backgroundImg="backgroundItems" />
 </template>
 <script>
 import SmallBanner from "@/components/SmallBanner.vue";
@@ -11,6 +12,8 @@ import CallToactionBlue from "@/components/CallToactionBlue.vue";
 import HeaderSection from "@/components/HeaderSection.vue";
 import FAQAccordion from "@/components/FAQAccordion.vue";
 import ContactUs from "@/components/ContactUs.vue";
+import BackGround from "@/components/BackGround.vue";
+
 export default {
   name: "FAQ",
   components: {
@@ -19,16 +22,17 @@ export default {
     HeaderSection,
     FAQAccordion,
     ContactUs,
+    BackGround,
   },
   data() {
     return {
       HeaderView: [
         {
-          bg: "home/news_header.png",
+          bg: "faq_header.png",
           logo: require("../assets/imgs/home/logo_white.png"),
-          title: "Latest News and Innovations",
+          title: "Unlocking the Power of ZICTIA",
           content:
-            "Stay at the forefront of technological advancements in Zanzibar by delving into ZICTIA's latest news",
+            "Navigate through our FAQs for seamless integration and optimal utilization of our ICT solutions",
         },
       ],
       ctaContent: [
@@ -95,6 +99,14 @@ export default {
         {
           question: "New Question?",
           answer: "Not available",
+        },
+      ],
+      backgroundItems: [
+        {
+          bg: "faq_bottom.png",
+          logo: "logo",
+          title: "title",
+          content: "content",
         },
       ],
     };

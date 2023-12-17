@@ -1,16 +1,12 @@
 <template>
   <div class="max-w-screen-xl mx-auto px-5 bg-white min-h-sceen">
     <div class="flex flex-col items-center">
-      <h2 class="font-bold text-5xl mt-5 tracking-tight">
-        FREQUANTLY ASKED QUESTIONS
+      <h2 class="text-2xl my-12 md:text-3xl lg:text-5xl leading-none font-bold tracking-tight text-blue-800">
+        FAQ
       </h2>
-      <p class="text-neutral-500 text-xl mt-3">
-        We've crafted this FAQ page to answer many of your frequently asked
-        questions.
-      </p>
     </div>
 
-    <div class="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8">
+    <div class="grid divide-y divide-neutral-200 max-w-xl mx-auto">
       <div
         class="py-5 rounded-lg bg-blue-950 p-5 text-white"
         v-for="(faq, id) in faqs"
