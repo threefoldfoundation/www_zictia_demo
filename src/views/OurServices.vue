@@ -1,12 +1,12 @@
 <template>
   <SmallBanner />
   <HeaderSectionCenter :items="HeaderViewCenter" />
-  <HeaderContent :headerContents="headerContentItems" />
-  <HeaderWithBg :headerContentBlues="headerContentBlueItems" />
-  <HeaderContent2 :headerContents="headerContentItems2" />
-  <HeaderWithBg2 :headerContentBlues="headerContentBlueItems2" />
-  <HeaderContent3 :headerContents="headerContentItems3" />
-  <HeaderWithBg3 :headerContentBlues="headerContentBlueItems3" />
+  <HeaderContent :headerContents="headerContentItems3" />
+  <HeaderWithBg :headerContentBlues="headerContentBlueItems3" />
+  <HeaderContent :headerContents="headerContentBlueItems2" />
+  <HeaderWithBg :headerContentBlues="headerContentItems2" />
+  <HeaderContent :headerContents="headerContentBlueItems" />
+  <HeaderWithBg :headerContentBlues="headerContentItems" />
   <BackGround :backgroundImg="backgroundItems" />
 </template>
 
@@ -14,11 +14,7 @@
 import SmallBanner from "@/components/SmallBanner.vue";
 import HeaderSectionCenter from "@/components/HeaderSectionCenter.vue";
 import HeaderContent from "@/components/HeaderContent.vue";
-import HeaderContent2 from "@/components/HeaderContent.vue";
-import HeaderContent3 from "@/components/HeaderContent.vue";
 import HeaderWithBg from "@/components/HeaderWithBg.vue";
-import HeaderWithBg2 from "@/components/HeaderWithBg.vue";
-import HeaderWithBg3 from "@/components/HeaderWithBg.vue";
 import BackGround from "@/components/BackGround.vue";
 export default {
   name: "OurServices",
@@ -27,10 +23,6 @@ export default {
     HeaderContent,
     HeaderSectionCenter,
     HeaderWithBg,
-    HeaderContent2,
-    HeaderWithBg2,
-    HeaderContent3,
-    HeaderWithBg3,
     BackGround,
   },
 
