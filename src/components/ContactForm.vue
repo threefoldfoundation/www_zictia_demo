@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-blue-950 my-6 py-6 sm:py-8 lg:py-12">
+  <div class="bg-blue-950 py-6 sm:py-8 lg:py-12">
     <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
       <!-- text - start -->
       <div class="mb-10 md:mb-16">
@@ -42,7 +42,7 @@
         <div class="sm:col-span-2">
           <textarea
             placeholder="Your Message"
-            class="h-64 w-full rounded-xl bg-blue-850 px-3 py-2 placeholder:text-white outline-none ring-indigo-300 transition duration-100 focus:ring"
+            class="h-44 w-full rounded-xl bg-blue-850 px-3 py-2 placeholder:text-white outline-none ring-indigo-300 transition duration-100 focus:ring"
           ></textarea>
         </div>
 
@@ -62,7 +62,7 @@
 
 <script>
 export default {
-  name: "ContactUs",
+  name: "ContactForm",
 };
 </script>
 

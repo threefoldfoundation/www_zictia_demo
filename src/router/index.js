@@ -99,7 +99,7 @@ const router = createRouter({
     {
       path: "/contact",
       name: "Contact",
-      //   component: () => import(".."),
+      component: () => import("../views/ContactUs.vue"),
     },
   ],
   scrollBehavior(to) {
