@@ -1,4 +1,4 @@
-# ZICTIA ebsite
+# ZICTIA website
 
 Welcome to the ZICTIA website! This repository contains the source code for a web application built with Vue.js, showcasing the features of the ZICTIA Organization.
 
