@@ -290,6 +290,10 @@ export default {
               name: "Request Form",
               path: "/request_Form",
             },
+            {
+              name: "Corporate Acts",
+              path: "/corporate_Acts",
+            },
           ],
         },
         {

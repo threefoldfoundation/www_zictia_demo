@@ -79,6 +79,16 @@ export default {
           url: "./files/FORM/ZICTIASITEREQUESTFORM.pdf",
         },
       ],
+      corporate_Acts: [
+        {
+          name: "Corporate Acts (ENG)",
+          url: "./files/CORPORATE/zictia_act.pdf",
+        },
+        {
+          name: "Corporate Acts (SWAHILI)",
+          url: "./files/CORPORATE/sheria_ya_zictia.pdf",
+        },
+      ],
     };
   },
 };
