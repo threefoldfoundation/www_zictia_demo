@@ -82,7 +82,7 @@ export default {
       corporate_Acts: [
         {
           name: "Corporate Acts (ENG)",
-          url: "./files/CORPORATE/zictia_act.pdf",
+          url: "./files/CORPORATE/SHERIAYAZICTIA.pdf",
         },
         {
           name: "Corporate Acts (SWAHILI)",
