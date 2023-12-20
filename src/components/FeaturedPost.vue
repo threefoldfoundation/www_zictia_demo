@@ -30,15 +30,6 @@
           <p class="mb-8 max-w-md text-gray-600">
             {{ post.description }}
           </p>
-
-          <div class="mt-auto">
-            <router-link
-              :to="`/softnet_news/${post.title
-                .replace(/ /g, '_')
-                .toLowerCase()}/`"
-              class="inline-block rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-400 focus-visible:ring active:bg-indigo-400 md:text-base"
-              >Read More</router-link>
-          </div>
         </div>
         <!-- content - end -->
       </div>

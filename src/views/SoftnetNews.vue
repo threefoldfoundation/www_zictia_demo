@@ -1,8 +1,15 @@
 <template>
-  <SmallBanner />
-  <HeaderSection :items="HeaderView" />
-  <NewsSec :news="news" />
-  <BackGround :backgroundImg="backgroundItems" />
+  <div>
+    <!-- SmallBanner and HeaderSection components remain clickable -->
+    <SmallBanner />
+    <HeaderSection :items="HeaderView" />
+
+    <!-- NewsSec component made unclickable -->
+    <NewsSec :news="news" style="pointer-events: none;" />
+
+    <!-- BackGround component made unclickable -->
+    <BackGround :backgroundImg="backgroundItems" style="pointer-events: none;" />
+  </div>
 </template>
 
 <script>
