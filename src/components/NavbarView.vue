@@ -268,7 +268,7 @@ export default {
         },
         {
           name: "News & Events",
-          path: "/softnet_news",
+          path: "/news",
         },
         {
           name: "Documents",
