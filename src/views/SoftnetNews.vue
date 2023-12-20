@@ -41,51 +41,87 @@ export default {
       news: [
         {
           isFeatured: true,
-          image:
-            "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&q=75&fit=crop&w=600",
-          title: "New trends in Tech",
+          image: require("../assets/imgs/news/moja.jpg"),
+          title: "ZICTIA - SoftNet",
           description:
-            "This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text.",
+            "ZICTIA Management & Staff Attending the Contract signing Meeting with SoftNet for Upgrading Data Center.",
         },
         {
           isFeatured: false,
-          image:
-            "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600",
-          title: "Working with legacy stacks",
+          image: require("../assets/imgs/news/director.jpeg"),
+          title: "ZICTIA - SoftNet Contract Signing",
           description:
-            "This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text.",
+            "ZICTIA Executive Director Eng. Shukuru A. Suleiman signing contract with SoftNet.",
         },
         {
           isFeatured: false,
-          image:
-            "https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&q=75&fit=crop&w=600",
-          title: "10 best smartphones for devs",
+          image: require("../assets/imgs/news/data.jpeg"),
+          title: "Data Center Upgrade",
           description:
-            "This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text.",
+            "SoftNet Project Manager signing Data Center Upgrading contract with ZICTIA in the presence of other staff from SoftNet.",
         },
         {
           isFeatured: false,
-          image:
-            "https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600",
-          title: "8 High performance Notebooks",
+          image: require("../assets/imgs/news/softnet.png"),
+          title: "Contract Signing",
           description:
-            "This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text.",
+            "Principal Secretary of the Ministry of Infrastructure, Communication and Transportation,ZICTIA Executive Director Eng. Shukuru A. Suleiman, together with SoftNet Chief Executive Officer Mr. Nuru Othman soon after contract signing with SoftNet.",
         },
         {
           isFeatured: false,
-          image:
-            "https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&q=75&fit=crop&w=600",
-          title: "10 best smartphones for devs",
+          image: require("../assets/imgs/news/zictia-zantel.jpeg"),
+          title: "ZICTIA and ZANTEL",
           description:
-            "This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text.",
+            "ZICTIA and ZANTEL signs agreement contract for fiber services provision.",
         },
         {
           isFeatured: false,
-          image:
-            "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600",
-          title: "Working with legacy stacks",
+          image: require("../assets/imgs/news/zictia-zantel-2.jpg"),
+          title: "Zantel Contract Signing",
           description:
-            "This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text.",
+            "ZICTIA Executive Director Eng. Shukuru A. Suleiman, together with some of the ZICTIA staff soon after contract signing with ZANTEL.",
+        },
+        {
+          isFeatured: false,
+          image: require("../assets/imgs/news/zanlink2.jpg"),
+          title: "ZICTIA - Zanlink",
+          description:
+            "ZICTIA signs fiber services provision contract with Zanlink in the presence of Principal secretary of the Ministry of Infrastructure, Communication and Transportation.",
+        },
+        {
+          isFeatured: false,
+          image: require("../assets/imgs/news/zanlink1.jpg"),
+          title: "ZICTIA - Zanlink Signing",
+          description:
+            "Deputy principal secretary of the Ministry of Infrastructure, Communication and Transportation,ZICTIA Executive Director Eng. Shukuru A. Suleiman, together with ZICTIA and Zanlink staff soon after contract signing with Zanlink.",
+        },
+        {
+          isFeatured: false,
+          image: require("../assets/imgs/news/zictia-ttcl-1.jpeg"),
+          title: "ZICTIA and TTCL",
+          description:
+            "ZICTIA and TTCL signs agreement contract for capacity provision.",
+        },
+        {
+          isFeatured: false,
+          image: require("../assets/imgs/news/zictia-ttcl-3.jpeg"),
+          title: "ZICTIA and TTCL Contract Signing",
+          description:
+            "Contract signing witnessed by a member of ZICTIA and a member of TTCL.",
+        },
+        {
+          isFeatured: false,
+          image: require("../assets/imgs/news/zictia-ttcl-2.jpeg"),
+          title: "ZICTIA and TTCL Meeting",
+          description:
+            "ZICTIA Executive Director Eng. Shukuru A. Suleiman and TTCL's Director General Mr. Waziri Kindamba exchanging contracts .",
+        },
+        {
+          isFeatured: false,
+          image: require("../assets/imgs/news/zictia-ttcl-4.jpeg"),
+          title: "ZICTIA and TTCL Guest of Honors",
+          description:
+            "Principal secretary of the Ministry of Infrastructure, Communication and Transportation, Mr. Mustafa Aboud Jumbe (left) and Principal secretary of the Ministry of Infrastructure, Communication and Transportation (Communication sector), Dr.Zainabu Chaula (right) were the guest of honors.",
         },
       ],
     };
