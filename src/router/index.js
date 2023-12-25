@@ -24,7 +24,7 @@ const router = createRouter({
         {
           name: "Team Members",
           path: "/team_members",
-          //   component: () => import(".."),
+          component: () => import("../views/TeamMembers.vue"),
         },
       ],
     },
@@ -33,42 +33,6 @@ const router = createRouter({
       name: "OurServices",
       component: () => import("../views/OurServices.vue"),
     },
-
-    // {../views/OurServices.vue
-    //   path: "/our_services",
-    //   children: [
-    //     {
-    //       name: "VPN",
-    //       path: "/vpn",
-    //         component: () => import("../views/VPN.vue"),
-    //     },
-    //     {
-    //       name: "IPMPLS",
-    //       path: "/ipmpls",
-    //       //   component: () => import(".."),
-    //     },
-    //     {
-    //       name: "Co-Location",
-    //       path: "/colocation",
-    //       //   component: () => import(".."),
-    //     },
-    //     {
-    //       name: "VirtualMachine",
-    //       path: "/virtualmachine",
-    //       //   component: () => import(".."),
-    //     },
-    //     {
-    //       name: "CapacityLease",
-    //       path: "/fiberLeaseServices",
-    //       //   component: () => import(".."),
-    //     },
-    //     {
-    //       name: "InternetServices",
-    //       path: "/internetservices",
-    //       //   component: () => import(".."),
-    //     },
-    //   ],
-    // },
     {
       path: "/fiberRoutes",
       name: "FiberRoutes",
