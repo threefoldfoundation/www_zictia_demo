@@ -2,6 +2,7 @@
   <SmallBanner />
   <HeaderSectionRight :items="HeaderView" />
   <HeaderContent :headerContents="headerContentItems" />
+  <BackGround :backgroundImg="image" />
   <BackGround :backgroundImg="backgroundItems" />
 </template>
 
@@ -45,6 +46,10 @@ export default {
           button: "See Organization Structure",
         },
       ],
+      image: {
+        isBlue: true,
+        image: require("../assets/imgs/structure.png"),
+      },
     };
   },
 };

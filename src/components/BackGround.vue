@@ -1,5 +1,13 @@
 <template>
+  <div v-if="backgroundImg.isBlue" class="bg-blue-950 py-4">
+    <img
+      :src="backgroundImg.image"
+      class="relative w-full py-4 sm:my-4 lg:w-1/2 mx-auto"
+      alt=""
+    />
+  </div>
   <div
+    v-else
     :style="{
       'background-image':
         'url(' + require('../assets/imgs/' + backgroundImg.bg) + ')',
@@ -11,7 +19,6 @@
       background-repeat: no-repeat;
     "
   ></div>
-  <!-- <div class="bg-blue-950 h-16"></div> -->
 </template>
 
 <script>
