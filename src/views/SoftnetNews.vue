@@ -30,14 +30,12 @@ export default {
             "Stay at the forefront of technological advancements in Zanzibar by delving into ZICTIA's latest news",
         },
       ],
-      backgroundItems: [
-        {
-          bg: "home/news_bottom.png",
-          logo: "logo",
-          title: "title",
-          content: "content",
-        },
-      ],
+      backgroundItems: {
+        bg: "home/news_bottom.png",
+        logo: "logo",
+        title: "title",
+        content: "content",
+      },
       news: [
         {
           isFeatured: true,

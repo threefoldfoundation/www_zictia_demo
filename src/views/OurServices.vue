@@ -108,14 +108,12 @@ export default {
           button: "",
         },
       ],
-      backgroundItems: [
-        {
-          bg: "home/services_bottom.png",
-          logo: "logo",
-          title: "title",
-          content: "content",
-        },
-      ],
+      backgroundItems: {
+        bg: "home/services_bottom.png",
+        logo: "logo",
+        title: "title",
+        content: "content",
+      },
     };
   },
 };

@@ -30,14 +30,12 @@ export default {
             "Our dedicated support services to you as we strive to ensure your experience with our ICT solutions is as smooth as possible.",
         },
       ],
-      backgroundItems: [
-        {
-          bg: "contact_footer.png",
-          logo: "logo",
-          title: "title",
-          content: "content",
-        },
-      ],
+      backgroundItems: {
+        bg: "contact_footer.png",
+        logo: "logo",
+        title: "title",
+        content: "content",
+      },
     };
   },
 };

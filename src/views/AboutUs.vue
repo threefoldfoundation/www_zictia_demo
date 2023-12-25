@@ -45,14 +45,13 @@ export default {
             "Explore our story, mission, and the impactful role we play in shaping a digitally empowered future for all.",
         },
       ],
-      backgroundItems: [
-        {
-          bg: "home/about_bottom.png",
-          logo: "logo",
-          title: "title",
-          content: "content",
-        },
-      ],
+      backgroundItems: {
+        bg: "home/about_bottom.png",
+        logo: "logo",
+        title: "title",
+        content: "content",
+      },
+
       CallToactionitems: [
         {
           title: "About ZICTIA",

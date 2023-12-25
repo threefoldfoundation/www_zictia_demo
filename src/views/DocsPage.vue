@@ -32,14 +32,13 @@ export default {
           blue_title: "",
         },
       ],
-      backgroundItems: [
-        {
-          bg: "home/docs_bottom.png",
-          logo: "logo",
-          title: "title",
-          content: "content",
-        },
-      ],
+      backgroundItems: {
+        bg: "home/docs_bottom.png",
+        logo: "logo",
+        title: "title",
+        content: "content",
+      },
+
       legal_tenders: [
         {
           name: "PUBLIC NOTICE.",

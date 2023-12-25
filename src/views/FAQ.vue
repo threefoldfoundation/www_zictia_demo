@@ -98,14 +98,12 @@ export default {
           answer: "Not available",
         },
       ],
-      backgroundItems: [
-        {
-          bg: "faq_bottom.png",
-          logo: "logo",
-          title: "title",
-          content: "content",
-        },
-      ],
+      backgroundItems: {
+        bg: "faq_bottom.png",
+        logo: "logo",
+        title: "title",
+        content: "content",
+      },
     };
   },
 };

@@ -56,14 +56,12 @@ export default {
             "Explore our dedicated management team and organizational members shaping the future of ICT infrastructure in Zanzibar.",
         },
       ],
-      backgroundItems: [
-        {
-          bg: "home/bottom.png",
-          logo: "logo",
-          title: "title",
-          content: "content",
-        },
-      ],
+      backgroundItems: {
+        bg: "home/bottom.png",
+        logo: "logo",
+        title: "title",
+        content: "content",
+      },
       headerContentItems: [
         {
           photo: require("../assets/imgs/home/innovation.jpg"),

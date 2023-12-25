@@ -48,14 +48,12 @@ export default {
             "ZICTIA's Fiber Routes Network is not just about connectivity; it's about transforming lives, powering businesses, and advancing Zanzibar's technological landscape. With a commitment to infrastructure excellence and innovative solutions, we're proud to lead the way in creating a connected Zanzibar.",
         },
       ],
-      backgroundItems: [
-        {
-          bg: "home/fiberroutes_bottom.png",
-          logo: "logo",
-          title: "title",
-          content: "content",
-        },
-      ],
+      backgroundItems: {
+        bg: "home/fiberroutes_bottom.png",
+        logo: "logo",
+        title: "title",
+        content: "content",
+      },
     };
   },
 };

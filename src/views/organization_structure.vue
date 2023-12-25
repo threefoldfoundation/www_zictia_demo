@@ -11,7 +11,7 @@ import HeaderSectionRight from "@/components/HeaderSectionRight.vue";
 import HeaderContent from "@/components/HeaderContent.vue";
 import BackGround from "@/components/BackGround.vue";
 export default {
-  name: "AboutUs",
+  name: "OrganizationStructure",
   components: {
     SmallBanner,
     HeaderSectionRight,
@@ -30,14 +30,12 @@ export default {
             "Explore our dedicated management team and organizational members shaping the future of ICT infrastructure in Zanzibar.",
         },
       ],
-      backgroundItems: [
-        {
-          bg: "home/mang_bottom.png",
-          logo: "logo",
-          title: "title",
-          content: "content",
-        },
-      ],
+      backgroundItems: {
+        bg: "home/mang_bottom.png",
+        logo: "logo",
+        title: "title",
+        content: "content",
+      },
       headerContentItems: [
         {
           photo: require("../assets/imgs/home/management_our.jpg"),
