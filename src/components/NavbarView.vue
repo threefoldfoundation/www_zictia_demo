@@ -268,7 +268,7 @@ export default {
         },
         {
           name: "News & Events",
-          path: "/softnet_news",
+          path: "/news",
         },
         {
           name: "Documents",
@@ -347,6 +347,6 @@ export default {
 <style scoped>
 li:has(> a.router-link-active) {
   color: #111827;
-  border-color: #6366f1;
+  border-color: #3B81F6;
 }
 </style>

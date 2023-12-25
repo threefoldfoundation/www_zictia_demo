@@ -39,12 +39,12 @@ const router = createRouter({
       component: () => import("../views/FiberRoutes.vue"),
     },
     {
-      path: "/softnet_news",
-      name: "SoftnetNews",
-      component: () => import("../views/SoftnetNews.vue"),
+      path: "/news",
+      name: "News",
+      component: () => import("../views/News.vue"),
     },
     {
-      path: "/softnet_news/:name",
+      path: "/News/:name",
       name: "PostDetails",
       props: true,
       component: () => import("../views/PostDetails.vue"),

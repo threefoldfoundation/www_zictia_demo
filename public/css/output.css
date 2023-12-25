@@ -1128,7 +1128,7 @@ video {
 
 .border-indigo-500{
   --tw-border-opacity: 1;
-  border-color: rgb(99 102 241 / var(--tw-border-opacity));
+  border-color: rgb(59 129 246 / var(--tw-border-opacity));
 }
 
 .border-transparent{
@@ -1172,7 +1172,7 @@ video {
 
 .bg-indigo-500{
   --tw-bg-opacity: 1;
-  background-color: rgb(99 102 241 / var(--tw-bg-opacity));
+  background-color: rgb(59 129 246 / var(--tw-bg-opacity));
 }
 
 .bg-white{
@@ -1468,7 +1468,7 @@ video {
 
 .text-indigo-500{
   --tw-text-opacity: 1;
-  color: rgb(99 102 241 / var(--tw-text-opacity));
+  color: rgb(59 129 246 / var(--tw-text-opacity));
 }
 
 .text-indigo-700{
@@ -1680,7 +1680,7 @@ body {
 
 .hover\:text-indigo-500:hover{
   --tw-text-opacity: 1;
-  color: rgb(99 102 241 / var(--tw-text-opacity));
+  color: rgb(59 129 246 / var(--tw-text-opacity));
 }
 
 .hover\:text-indigo-600:hover{
@@ -1722,7 +1722,7 @@ body {
 
 .focus\:ring-indigo-500:focus{
   --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(99 102 241 / var(--tw-ring-opacity));
+  --tw-ring-color: rgb(59 129 246 / var(--tw-ring-opacity));
 }
 
 .focus\:ring-offset-2:focus{
