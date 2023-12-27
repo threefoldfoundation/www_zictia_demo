@@ -37,16 +37,19 @@
             v-if="(faq.answer instanceof Array)"
             class="text-white mt-3 group-open:animate-fadeIn"
           >
-          <ul class="py-2 ">
-            <li class="py-2" v-for="answer in faq.answer" :key="answer.title">
-              <router-link
-                v-if="answer.hash"
-                :to="{ name: 'OurServices', hash: `${answer.hash}` }"
-                >&#11157; {{ answer.title }}</router-link
-              >
-              <router-link v-else :to="answer.url"
-                >&#11157; {{ answer.title }}</router-link
-              >
+          <ul class="py-2">
+            <li class="py-2" v-for="answer in faq.answer" :key="answer.id">
+              <span v-if="answer.title">
+                <router-link
+                    v-if="answer.hash"
+                    :to="{ name: 'OurServices', hash: `${answer.hash}` }"
+                    >&#11157; {{ answer.title }}</router-link
+                  >
+                  <router-link v-else :to="answer.url"
+                    >&#11157; {{ answer.title }}</router-link
+                  >
+              </span>
+              <span v-else>&#11157; {{ answer }}</span>
             </li>
           </ul>
           </p>

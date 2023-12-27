@@ -91,7 +91,10 @@ export default {
         },
         {
           question: "What is the difference between ZICTIA and TCRA?",
-          answer: "",
+          answer: [
+            "ZICTIA deals with Zanzibar National Fiber Backbone and Zanzibar Data Center.",
+            "TCRA is responsible for regulating the Communications and Broadcasting Services in Tanzania.",
+          ],
         },
         {
           question: "New Question?",
