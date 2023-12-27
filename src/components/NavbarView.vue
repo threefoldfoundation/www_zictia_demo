@@ -304,9 +304,7 @@ export default {
   },
   watch: {
     $route() {
-      if (this.desktop) {
-        this.isOpen = false;
-      }
+      this.isOpen = false;
     },
   },
 };
