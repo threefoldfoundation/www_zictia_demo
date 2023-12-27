@@ -5,7 +5,7 @@
         class="relative mb-6 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:mb-8"
       >
         <img
-          src="https://placehold.co/600x350"
+          :src="require('../../assets/imgs/news/softnet.png')"
           loading="lazy"
           :alt="name"
           class="h-full w-full object-cover object-center"

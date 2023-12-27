@@ -7,8 +7,8 @@ import data_center_upgrade from "./blogs/data_center_upgrade.vue";
 import contract_signing from "./blogs/contract_signing.vue";
 import zictia___softnet_contract_signing from "./blogs/zictia___softnet_contract_signing.vue";
 import zictia___softnet from "./blogs/zictia___softnet.vue";
-import zanlink_signing from "./blogs/zanlink_signing.vue";
-import zanlink from "./blogs/zanlink.vue";
+import zictia___zanlink_signing from "./blogs/zictia___zanlink_signing.vue";
+import zictia___zanlink from "./blogs/zictia___zanlink.vue";
 import zantel_contract_signing from "./blogs/zantel_contract_signing.vue";
 import zictia_and_ttcl_contract_signing from "./blogs/zictia_and_ttcl_contract_signing.vue";
 import zictia_and_ttcl_guest_of_honors from "./blogs/zictia_and_ttcl_guest_of_honors.vue";
@@ -24,8 +24,8 @@ export default {
     contract_signing,
     zictia___softnet_contract_signing,
     zictia___softnet,
-    zanlink_signing,
-    zanlink,
+    zictia___zanlink_signing,
+    zictia___zanlink,
     zantel_contract_signing,
     zictia_and_ttcl_contract_signing,
     zictia_and_ttcl_guest_of_honors,
