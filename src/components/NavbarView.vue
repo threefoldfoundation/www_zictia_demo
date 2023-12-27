@@ -232,36 +232,6 @@ export default {
           name: "Our Service",
           path: "/our_services",
         },
-        // {
-        //   name: "Our Services",
-        //   path: "",
-        //   children: [
-        //     {
-        //       name: "VPN",
-        //       path: "/vpn",
-        //     },
-        //     {
-        //       name: "IP MPLS",
-        //       path: "/ipmpls",
-        //     },
-        //     {
-        //       name: "Co-Location",
-        //       path: "/colocation",
-        //     },
-        //     {
-        //       name: "Virtual Machine",
-        //       path: "/virtualmachine",
-        //     },
-        //     {
-        //       name: "Capacity Lease",
-        //       path: "/fiberLeaseServices",
-        //     },
-        //     {
-        //       name: "Internet Services",
-        //       path: "/internetservices",
-        //     },
-        //   ],
-        // },
         {
           name: "Fiber Routes",
           path: "/fiberRoutes",
@@ -336,8 +306,6 @@ export default {
     $route() {
       if (this.desktop) {
         this.isOpen = false;
-      } else {
-        this.isOpen = !this.isOpen;
       }
     },
   },
@@ -347,6 +315,6 @@ export default {
 <style scoped>
 li:has(> a.router-link-active) {
   color: #111827;
-  border-color: #3B81F6;
+  border-color: #3b81f6;
 }
 </style>
