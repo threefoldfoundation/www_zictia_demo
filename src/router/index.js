@@ -41,10 +41,10 @@ const router = createRouter({
     {
       path: "/news",
       name: "News",
-      component: () => import("../views/News.vue"),
+      component: () => import("../views/NewsView.vue"),
     },
     {
-      path: "/News/:name",
+      path: "/news/:name",
       name: "PostDetails",
       props: true,
       component: () => import("../views/PostDetails.vue"),

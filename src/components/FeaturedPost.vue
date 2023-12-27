@@ -21,11 +21,14 @@
 
         <!-- content - start -->
         <div class="flex w-full flex-col p-4 sm:w-1/2 sm:p-8 lg:w-3/5">
-          <h2
+          <h3 class="text-base not-italic leading-6 text-gray-600">
+            FEATURED POST
+          </h3>
+          <router-link
+            :to="`/news/${post.title.replace(/[ -]/g, '_').toLowerCase()}/`"
             class="mb-4 text-3xl font-bold text-gray-800 md:text-2xl lg:text-4xl"
+            >{{ post.title }}</router-link
           >
-            {{ post.title }}
-          </h2>
 
           <p class="mb-8 max-w-md text-gray-600">
             {{ post.description }}

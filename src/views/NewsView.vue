@@ -5,10 +5,10 @@
     <HeaderSection :items="HeaderView" />
 
     <!-- NewsSec component made unclickable -->
-    <NewsSec :news="news" style="pointer-events: none;" />
+    <NewsSec :news="news" />
 
     <!-- BackGround component made unclickable -->
-    <BackGround :backgroundImg="backgroundItems" style="pointer-events: none;" />
+    <BackGround :backgroundImg="backgroundItems" />
   </div>
 </template>
 
@@ -18,7 +18,7 @@ import HeaderSection from "@/components/HeaderSection.vue";
 import BackGround from "@/components/BackGround.vue";
 import NewsSec from "@/components/NewsSec.vue";
 export default {
-  name: "AboutUs",
+  name: "NewsView",
   components: {
     SmallBanner,
     HeaderSection,
@@ -37,14 +37,12 @@ export default {
             "Stay at the forefront of technological advancements in Zanzibar by delving into ZICTIA's latest news",
         },
       ],
-      backgroundItems: [
-        {
-          bg: "home/news_bottom.png",
-          logo: "logo",
-          title: "title",
-          content: "content",
-        },
-      ],
+      backgroundItems: {
+        bg: "home/news_bottom.png",
+        logo: "logo",
+        title: "title",
+        content: "content",
+      },
       news: [
         {
           isFeatured: true,
