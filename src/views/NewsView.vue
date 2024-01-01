@@ -60,7 +60,7 @@ export default {
         },
         {
           isFeatured: false,
-          image: require("../assets/imgs/news/data.jpeg"),
+          image: require("../assets/imgs/news/data.jpg"),
           title: "Data Center Upgrade",
           description:
             "SoftNet Project Manager signing Data Center Upgrading contract with ZICTIA in the presence of other staff from SoftNet.",

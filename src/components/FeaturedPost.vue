@@ -1,5 +1,5 @@
 <template>
-  <div class="py-3 sm:py-8 lg:py-4 border border-blue-900 mb-8 rounded-lg">
+  <div class="py-3 sm:py-8 lg:py-4 border border-blue-700 mb-8 rounded-lg">
     <div class="mx-auto max-w-screen-2xl p-4">
       <div
         v-for="post in posts"

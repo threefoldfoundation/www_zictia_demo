@@ -5,7 +5,7 @@
         class="relative mb-6 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:mb-8"
       >
         <img
-          src="https://placehold.co/600x350"
+          :src="require('../../assets/imgs/news/zictia-zantel-2.jpg')"
           loading="lazy"
           :alt="name"
           class="h-full w-full object-cover object-center"
@@ -20,7 +20,8 @@
       <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sequi
         beatae non hic exercitationem. Officiis beatae perspiciatis veniam
-        suscipit fugiat itaque, eligendi illo qui unde vel dolor sed alias fuga?
+        suscipit fugiat itaque, eligendi illo qui unde vel dolor sed alias
+        fugas?
       </p>
     </div>
   </div>
