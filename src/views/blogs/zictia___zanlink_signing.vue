@@ -18,9 +18,7 @@
       </h1>
 
       <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sequi
-        beatae non hic exercitationem. Officiis beatae perspiciatis veniam
-        suscipit fugiat itaque, eligendi illo qui unde vel dolor sed alias fuga?
+        Deputy principal secretary of the Ministry of Infrastructure, Communication and Transportation,ZICTIA Executive Director Eng. Shukuru A. Suleiman, together with ZICTIA and Zanlink staff soon after contract signing with Zanlink.
       </p>
     </div>
   </div>

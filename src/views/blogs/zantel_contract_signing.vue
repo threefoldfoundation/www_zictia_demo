@@ -18,10 +18,7 @@
       </h1>
 
       <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sequi
-        beatae non hic exercitationem. Officiis beatae perspiciatis veniam
-        suscipit fugiat itaque, eligendi illo qui unde vel dolor sed alias
-        fugas?
+        ZICTIA Executive Director Eng. Shukuru A. Suleiman, together with some of the ZICTIA staff soon after contract signing with ZANTEL.
       </p>
     </div>
   </div>
