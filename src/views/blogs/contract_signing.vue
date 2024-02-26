@@ -18,7 +18,10 @@
       </h1>
 
       <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-        Principal Secretary of the Ministry of Infrastructure, Communication and Transportation,ZICTIA Executive Director Eng. Shukuru A. Suleiman, together with SoftNet Chief Executive Officer Mr. Nuru Othman soon after contract signing with SoftNet.
+        Principal Secretary of the Ministry of Infrastructure, Communication and
+        Transportation,ZICTIA Executive Director Eng. Shukuru A. Suleiman,
+        together with SoftNet Chief Executive Officer Mr. Nuru Othman soon after
+        contract signing with SoftNet.
       </p>
     </div>
   </div>

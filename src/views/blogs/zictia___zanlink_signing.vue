@@ -5,7 +5,7 @@
         class="relative mb-6 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:mb-8"
       >
         <img
-          src="https://placehold.co/600x350"
+          :src="require('../../assets/imgs/news/zanlink1.jpg')"
           loading="lazy"
           :alt="name"
           class="h-full w-full object-cover object-center"
@@ -18,7 +18,10 @@
       </h1>
 
       <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-        Deputy principal secretary of the Ministry of Infrastructure, Communication and Transportation,ZICTIA Executive Director Eng. Shukuru A. Suleiman, together with ZICTIA and Zanlink staff soon after contract signing with Zanlink.
+        Deputy principal secretary of the Ministry of Infrastructure,
+        Communication and Transportation,ZICTIA Executive Director Eng. Shukuru
+        A. Suleiman, together with ZICTIA and Zanlink staff soon after contract
+        signing with Zanlink.
       </p>
     </div>
   </div>

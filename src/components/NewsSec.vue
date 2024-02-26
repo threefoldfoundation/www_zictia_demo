@@ -42,11 +42,11 @@
 </template>
 
 <script>
-import FeaturedPost from "./FeaturedPost.vue";
+// import FeaturedPost from "./FeaturedPost.vue";
 export default {
   name: "NewsSec",
   components: {
-    FeaturedPost,
+    // FeaturedPost,
   },
   props: ["news"],
   computed: {
