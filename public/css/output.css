@@ -997,6 +997,10 @@ video {
   flex-wrap: wrap;
 }
 
+.items-start{
+  align-items: flex-start;
+}
+
 .items-center{
   align-items: center;
 }
@@ -1922,6 +1926,14 @@ body {
 
   .md\:w-1\/2{
     width: 50%;
+  }
+
+  .md\:w-1\/4{
+    width: 25%;
+  }
+
+  .md\:w-3\/4{
+    width: 75%;
   }
 
   .md\:w-auto{

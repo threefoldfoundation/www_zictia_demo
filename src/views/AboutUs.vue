@@ -88,7 +88,7 @@ export default {
           content:
             "I trust this message finds you well. As the Director General of Zanzibar Communication Corporation (ZICTIA), I am honoured and privileged to guide a team that is wholeheartedly committed to shaping...",
           button: "Read More",
-          link: "/team_members",
+          link: "/manager",
         },
       ],
       FeaturesItems: [

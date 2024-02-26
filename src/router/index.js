@@ -13,6 +13,11 @@ const router = createRouter({
       name: "About",
       component: () => import("../views/AboutUs.vue"),
     },
+     {
+      path: "/manager",
+      name: "general_manager",
+      component: () => import("../views/GeneralManager.vue"),
+    },
     {
       path: "/management",
       children: [
