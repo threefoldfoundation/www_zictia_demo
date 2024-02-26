@@ -34,7 +34,7 @@
             :key="general.id"
           >
             <div
-              class="mb-2 h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg sm:mb-4 sm:h-60 md:h-80"
+              class="mb-2 h-60 overflow-hidden rounded-lg bg-gray-100 shadow-lg sm:mb-4 md:h-80"
             >
               <img
                 :src="require(`../assets/imgs/team/${general.image}`)"
@@ -70,7 +70,7 @@
           <!-- person - start -->
           <div v-for="director in directors" :key="director.id">
             <div
-              class="mb-2 h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg sm:mb-4 sm:h-60 md:h-80"
+              class="mb-2 h-60 overflow-hidden rounded-lg bg-gray-100 shadow-lg sm:mb-4 md:h-80"
             >
               <img
                 :src="require(`../assets/imgs/team/${director.image}`)"
@@ -106,7 +106,7 @@
           <!-- person - start -->
           <div v-for="unit in units" :key="unit.id">
             <div
-              class="mb-2 h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg sm:mb-4 sm:h-60 md:h-80"
+              class="mb-2 h-60 overflow-hidden rounded-lg bg-gray-100 shadow-lg sm:mb-4 md:h-80"
             >
               <img
                 :src="require(`../assets/imgs/team/${unit.image}`)"
@@ -142,7 +142,7 @@
           <!-- person - start -->
           <div v-for="division in divisions" :key="division.id">
             <div
-              class="mb-2 h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg sm:mb-4 sm:h-60 md:h-80"
+              class="mb-2 h-60 overflow-hidden rounded-lg bg-gray-100 shadow-lg sm:mb-4 md:h-80"
             >
               <img
                 :src="require(`../assets/imgs/team/${division.image}`)"
