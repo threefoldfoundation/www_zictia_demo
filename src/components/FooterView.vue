@@ -99,16 +99,10 @@
         </div>
         <div class="text-blue-800 text-sm my-3 font-medium mx-auto">
           <ul>
+            <li class="text-sm leading-6 text-blue-800">www.zictia.go.tz</li>
             <li>
               <a
-                href="#"
-                class="text-sm leading-6 text-blue-800 hover:text-blue-600"
-                >www.zictia.go.tz</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
+                href="mailto:info@zictia.go.tz"
                 class="text-sm leading-6 text-blue-800 hover:text-blue-600"
                 >info@zictia.go.tz</a
               >
@@ -120,7 +114,7 @@
           <ul>
             <li>
               <a
-                href=""
+                href="/legal_tenders"
                 class="text-sm font-semibold leading-6 text-blue-800 hover:text-blue-600"
                 >Legals</a
               >
@@ -141,14 +135,14 @@
             </li>
             <li>
               <a
-                href=""
+                href="/faq"
                 class="text-sm font-semibold leading-6 text-blue-800 hover:text-blue-600"
                 >FAQ</a
               >
             </li>
             <li>
               <a
-                href=""
+                href="#"
                 class="text-sm font-semibold leading-6 text-blue-800 hover:text-blue-600"
                 >Privacy Policy</a
               >

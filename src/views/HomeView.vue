@@ -81,6 +81,7 @@ export default {
           content2:
             "Explore our cutting-edge infrastructure and discover how we're shaping the future of data management in Zanzibar",
           button: "Discover",
+          link: "/organization_structure",
         },
       ],
       headerWithBgRightItems: [
@@ -90,6 +91,7 @@ export default {
           content:
             "Stay informed and connected with the latest developments at ZICTIA by visiting our News and Announcements page. Discover timely updates, exciting initiatives, and important announcements that shape the landscape of ICT infrastructure and services in Zanzibar.",
           button: "About ZICTIA",
+          link: "/about",
         },
       ],
     };

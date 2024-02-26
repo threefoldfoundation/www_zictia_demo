@@ -1,13 +1,13 @@
 <template>
   <SmallBanner />
   <HeaderSection :items="HeaderView" />
-  <CallToactionBlue :calltoactionblues="ctaContent" />
+  <!-- <CallToactionBlue :calltoactionblues="ctaContent" /> -->
   <FAQAccordion :faqs="faqs" />
   <BackGround :backgroundImg="backgroundItems" />
 </template>
 <script>
 import SmallBanner from "@/components/SmallBanner.vue";
-import CallToactionBlue from "@/components/CallToactionBlue.vue";
+// import CallToactionBlue from "@/components/CallToactionBlue.vue";
 import HeaderSection from "@/components/HeaderSection.vue";
 import FAQAccordion from "@/components/FAQAccordion.vue";
 import BackGround from "@/components/BackGround.vue";
@@ -16,7 +16,7 @@ export default {
   name: "FAQ",
   components: {
     SmallBanner,
-    CallToactionBlue,
+    // CallToactionBlue,
     HeaderSection,
     FAQAccordion,
     BackGround,

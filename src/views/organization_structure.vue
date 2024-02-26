@@ -44,6 +44,7 @@ export default {
           content:
             "ZICTIA's commitment to effective management and leadership plays a crucial role in delivering quality ICT infrastructure and services to the public and private sectors in Zanzibar. Explore our organizational structure in the following section to gain insights into how we are structured to achieve our objectives.",
           button: "See Organization Structure",
+          link: "/organization_structure",
         },
       ],
       image: {
