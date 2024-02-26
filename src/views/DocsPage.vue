@@ -45,20 +45,17 @@ export default {
           url: "./files/TENDER/TENDER.docx",
         },
         {
-          name:
-            "SUPPLY OF WOODEN POLES AND ITS TENSION HOOKS IN A FRAMEWORK CONTRACT.",
+          name: "SUPPLY OF WOODEN POLES AND ITS TENSION HOOKS IN A FRAMEWORK CONTRACT.",
           url: "./files/TENDER/Supply of Wooden Poles.pdf",
         },
         {
-          name:
-            "GENERAL PROCUREMENT NOTICE [GPN] FOR GOODS, WORKS AND NONCONSULTANCY SERVICES FOR THE FINANCIAL YEAR 2021/2022",
+          name: "GENERAL PROCUREMENT NOTICE [GPN] FOR GOODS, WORKS AND NONCONSULTANCY SERVICES FOR THE FINANCIAL YEAR 2021/2022",
           url: "./files/TENDER/GPN.pdf",
         },
       ],
       legal_acts: [
         {
-          name:
-            "AN ACT TO ESTABLISH THE ZANZIBAR INFORMATION COMMUNICATION TECHNOLOGY INFRUSTRUCTURE AGENCY AND TO MAKE PROVISIONS FOR PROVIDING ICT INFRUSTRUCTURE SERVICES AND OTHER MATTERS CONNECTED THEREWITH.",
+          name: "AN ACT TO ESTABLISH THE ZANZIBAR INFORMATION COMMUNICATION TECHNOLOGY INFRUSTRUCTURE AGENCY AND TO MAKE PROVISIONS FOR PROVIDING ICT INFRUSTRUCTURE SERVICES AND OTHER MATTERS CONNECTED THEREWITH.",
           url: "./files/LEGAL_ACTS/LEGAL_ACT.pdf",
         },
       ],
@@ -75,7 +72,7 @@ export default {
       request_Form: [
         {
           name: "ZICTIA SITE REQUEST FORM",
-          url: "./files/FORM/ZICTIASITEREQUESTFORM.pdf",
+          url: "./files/FORM/SITE.ACCESS.FORM.docx",
         },
       ],
       corporate_Acts: [
