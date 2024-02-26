@@ -812,6 +812,10 @@ video {
   display: none;
 }
 
+.h-10{
+  height: 2.5rem;
+}
+
 .h-12{
   height: 3rem;
 }
@@ -1410,11 +1414,6 @@ video {
 
 .tracking-wide{
   letter-spacing: 0.025em;
-}
-
-.text-blue-200{
-  --tw-text-opacity: 1;
-  color: rgb(191 219 254 / var(--tw-text-opacity));
 }
 
 .text-blue-800{

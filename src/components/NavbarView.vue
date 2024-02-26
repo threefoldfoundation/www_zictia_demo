@@ -91,7 +91,17 @@
                 </transition>
               </Menu>
             </li>
+            <li
+              class="inline-flex items-center border-b-2 border-transparent hover:border-gray-300"
+            >
+              <img
+                class="h-10 w-auto"
+                src="../assets/imgs/zictia_left.png"
+                alt="Zictia"
+              />
+            </li>
           </ul>
+
           <!-- <button
             type="button"
             class="relative rounded-full bg-white pl-3 pt-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
