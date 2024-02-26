@@ -56,9 +56,8 @@ export default {
         {
           title: "About ZICTIA",
           content:
-            "Zanzibar ICT Infrastructure Agency (ZICTIA) is a government agency established in 2018, responsible for managing Zanzibar's National Fiber backbone and Data Centre. In 2020, an act was enacted, expanding its mandate to include managing ICT infrastructure, telecommunication towers, and providing affordable, secure, and convergent ICT infrastructure services to the public",
-          content2:
-            "ZICTIA has a dedicated team of technical experts available 24/7 for support and education on ICT infrastructure. They also offer a secure Data Centre for public and private institutions for data backup and disaster recovery. ZICTIA aims to advance Information and Communication Technology in the country through its services.",
+            "Zanzibar Communication Corporation (ZICTIA) is a government entity, officially established on July 23rd, 2023, in accordance with Act No. 4 of 2023. Our core focus revolves around the management of the Strategic ICT Infrastructure, encompassing the Zanzibar National Fiber Backbone and Data Centre. ZICTIA holds the pivotal role of providing ICT services, emphasizing accessibility, sustainability, security, and convergence for the public.",
+          content2: "",
         },
       ],
       headerContentItems: [
@@ -67,8 +66,9 @@ export default {
 
           title: "Your Data's Safe Haven",
           content:
-            "Explore our secure and fully operational Data Centre, your dependable data backup solution. Whether you're a public institution or a private entity, we offer a safe haven for your data, particularly for disaster recovery purposes. By partnering with us, you contribute to advancing Information and Communication Technology in our nation, where technology thrives with increased usage. ",
-          content2: "",
+            "For both public and private institutions, we present a secure and fully operational Data Centre, serving as a dependable backup for data storage. This facility assumes a critical role in disaster recovery scenarios and provides essential support to institutions facing challenges in securing their data locally.",
+          content2:
+            "Through these strategic initiatives, ZICTIA strives to make significant contributions to the advancement of ICT in the country. We firmly believe that technology thrives with increased usage, and our ultimate goal is to contribute to the development of a nation boasting robust ICT capabilities, thereby fostering growth and innovation.",
           button: "",
         },
       ],
@@ -78,7 +78,7 @@ export default {
 
           title: "Supporting You Around the Clock",
           content:
-            "At ZICTIA, our dedicated team of technical experts is at your service 24/7, offering proactive support and solutions whenever you need them. We're not just about technology; we also focus on educating the public about the significance of ICT infrastructure and the proper utilization of our services. Together, we're building a digital-savvy Zanzibar.",
+            "With a dedicated team of technical experts available around the clock, we ensure proactive support to address any potential issues promptly. ZICTIA is deeply committed to public education, actively raising awareness about the crucial significance of ICT Infrastructure and advocating for responsible usage of the services we provide.",
         },
       ],
       headerWithBgRightItems: [
@@ -86,8 +86,9 @@ export default {
           photo: require("../assets/imgs/home/about_zictia.jpg"),
           title: "Message from ZICTIA’s Executive Director",
           content:
-            "Welcome to the Zanzibar ICT Infrastructure Agency (ZICTIA). Established on December 4, 2018, through Legal Notice No. 119 of 2018, ZICTIA is a government agency tasked with managing  Zanzibar's National Fiber backbone and Data Centre.",
+            "I trust this message finds you well. As the Director General of Zanzibar Communication Corporation (ZICTIA), I am honoured and privileged to guide a team that is wholeheartedly committed to shaping...",
           button: "Read More",
+          link: "/team_members",
         },
       ],
       FeaturesItems: [
@@ -95,19 +96,19 @@ export default {
           title: "OBJECTIVE",
           photo: require("../assets/imgs/home/objective.png"),
           content:
-            "To establish a Point of Presence in all country's administrative districts and facilitate the implementation of e-government initiative.",
+            "Provide affordable, sustainable, secure and convergent ICT infrastructure services delivery to the public, Improve and maintain the deployment of ICT Infrastructure to economic development in Zanzibar and Enhance and improve the contribution of ICT infrastructure to economic development in Zanzibar.",
         },
         {
           title: "MISSION",
           photo: require("../assets/imgs/home/mission.png"),
           content:
-            "To ensure institutions are connected to the IT infrastructure to facilitate the common systems that will promote ease access of service.",
+            "Fostering Connectivity Excellence: By linking public and private institutions to the national fiber backbone, accelerating digitalization, enabling seamless e-Government and e-Commerce services. Elevating service delivery to citizens and driving developmental strides.",
         },
         {
           title: "VISION",
           photo: require("../assets/imgs/home/vision.png"),
           content:
-            "To facilitate ICT infrastructure that help the Government to easy access and collect revenue to develop social and economic activity.",
+            "Elevating Zanzibar’s Future: Investing in Cutting-Edge ICT Infrastructure for unmatched digital transformation, catalyzing social and economic progress.",
         },
       ],
       FeatureslogosItems: [
