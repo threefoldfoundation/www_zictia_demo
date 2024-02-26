@@ -1,14 +1,12 @@
 <template>
-  <div class="bg-white md:py-24 lg:py-24 py-12">
+  <div class="bg-blue-950 text-white md:py-24 lg:py-24 py-12">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto text-center lg:mx-0">
-        <h2
-          class="text-3xl md:text-3xl lg:text-5xl font-bold tracking-tight text-blue-800"
-        >
+        <h2 class="text-3xl md:text-3xl lg:text-5xl font-bold tracking-tight">
           Envision a Digitally Inclusive Zanzibar
         </h2>
         <p
-          class="mt-6 text-xl max-w-none mx-auto lg:max-w-4xl font-medium leading-8 text-blue-800"
+          class="mt-6 text-xl max-w-none mx-auto lg:max-w-4xl font-medium leading-8"
         >
           Together We Could Expand ICT Reach, Strengthen Our Governance, and
           Foster Socioeconomic Growth of Zanzibar
@@ -21,7 +19,7 @@
         <!-- Capacity lease -->
         <li class="md:my-3 my-2" v-for="(Feature, i) in Features" :key="i">
           <h3
-            class="text-2xl md:text-3xl my-4 lg:text-3xl leading-none font-semibold tracking-tight text-blue-800"
+            class="text-2xl md:text-3xl my-4 lg:text-3xl leading-none font-semibold tracking-tight"
           >
             {{ Feature.title }}
           </h3>
@@ -31,7 +29,7 @@
             alt=""
           />
           <p
-            class="text-base lg:text-lg font-medium leading-8 py-4 text-blue-800"
+            class="text-base lg:text-lg font-medium leading-8 py-4"
             v-html="Feature.content"
           ></p>
         </li>

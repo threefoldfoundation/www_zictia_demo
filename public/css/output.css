@@ -840,6 +840,10 @@ video {
   height: 1.5rem;
 }
 
+.h-60{
+  height: 15rem;
+}
+
 .h-8{
   height: 2rem;
 }
@@ -1775,10 +1779,6 @@ body {
 
   .sm\:hidden{
     display: none;
-  }
-
-  .sm\:h-60{
-    height: 15rem;
   }
 
   .sm\:h-auto{
