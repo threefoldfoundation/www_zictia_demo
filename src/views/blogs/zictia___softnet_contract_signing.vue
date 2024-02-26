@@ -18,7 +18,8 @@
       </h1>
 
       <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-        ZICTIA Executive Director Eng. Shukuru A. Suleiman signing contract with SoftNet.
+        ZICTIA Executive Director Eng. Shukuru A. Suleiman signing contract with
+        SoftNet.fdfdfdfdf
       </p>
     </div>
   </div>

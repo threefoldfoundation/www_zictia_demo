@@ -64,30 +64,30 @@ export default {
         "Comprising dedicated individuals driven by passion, we are on a shared journey to enhance the state of Tanzania and contribute positively to Tanzania's Internet infrastructure services, and improve the lives of those within our community.",
       members: [
         {
-          image: "1.png",
-          name: "Eng. / Nd. Shukuru Awadh Suleiman",
-          title: "Executive Director",
-        },
-        {
-          image: "2.png",
+          image: "5.png",
           name: "Abdulrahman J Abdulrahman",
-          title: "Fiber network Manager",
+          title: "Manager Fiber network",
         },
         {
           image: "3.png",
           name: "Abdulrahman M Abdulrahman",
-          title: "Data Center Manager",
+          title: "Manager Datacente",
         },
+
         {
           image: "4.png",
           name: "Abubakar A Sheha",
-          title: "Planning and Marketing Director",
+          title: "Director Planning and Marketing",
         },
-        { image: "5.png", name: "Ali S Mgambe", title: "Head of ICT Unit" },
+        {
+          image: "2.png",
+          name: "Ali S Mgambe",
+          title: "Head of ICT Unit",
+        },
         {
           image: "6.png",
           name: "Haji K Hamad",
-          title: "Power and Cooling Manager",
+          title: "Manager Power and Cooling",
         },
         {
           image: "7.png",
@@ -96,13 +96,13 @@ export default {
         },
         {
           image: "8.png",
-          name: "Eng. / Nd. Shukuru Awadh Suleiman",
+          name: "Kassim M Kassim",
           title: "Head of legal Unit",
         },
         {
           image: "9.png",
-          name: "Eng. / Nd. Shukuru Awadh Suleiman",
-          title: "Executive Director",
+          name: "Maryam A Mtawa",
+          title: "Head of Internal Audit Unit",
         },
         {
           image: "10.png",
@@ -124,7 +124,11 @@ export default {
           name: "Shani Kh Khamis",
           title: "Manager Planning and Research",
         },
-        { image: "14.png", name: "Soud S Said", title: "Soud S Said" },
+        {
+          image: "14.png",
+          name: "Soud S Said",
+          title: "Head of Accounting Unit",
+        },
       ],
       backgroundItems: {
         bg: "team/team_bottom.png",
