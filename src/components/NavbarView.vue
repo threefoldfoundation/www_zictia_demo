@@ -1,8 +1,8 @@
 <template>
   <Disclosure as="nav" class="bg-white shadow">
     <div class="mx-auto container px-4 sm:px-6 lg:px-8">
-      <div class="relative flex h-16 justify-between">
-        <div class="flex flex-1 sm:items-stretch sm:justify-start">
+      <div class="relative flex h-16 justify-center">
+        <div class="flex sm:items-stretch sm:justify-start">
           <div class="flex flex-shrink-0 items-center">
             <a href="/">
               <img
@@ -95,7 +95,7 @@
               class="inline-flex items-center border-b-2 border-transparent hover:border-gray-300"
             >
               <img
-                class="h-10 w-auto"
+                class="ml-8 h-10 w-auto"
                 src="../assets/imgs/zictia_left.png"
                 alt="Zictia"
               />
