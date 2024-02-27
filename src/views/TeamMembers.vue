@@ -182,12 +182,12 @@ export default {
       title: "Team Members",
       description:
         "Comprising dedicated individuals driven by passion, we are on a shared journey to enhance the state of Tanzania and contribute positively to Tanzania's Internet infrastructure services, and improve the lives of those within our community.",
-      generaltitle: "Genaral Manager",
+      generaltitle: "General Manager",
       generals: [
         {
           image: "1.png",
           name: "Shukuru A. Suleiman",
-          title: "Genaral Manager",
+          title: "General Manager",
         },
       ],
       directortitle: "Department Directors",

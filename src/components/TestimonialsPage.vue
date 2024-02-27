@@ -73,8 +73,9 @@
             </div>
 
             <p class="mt-4 text-gray-700">
-              “Zictia is attentive, personable and professional....”
+              “Zictia is attentive, personable and professional. The team provided great support for my company's needs.”
             </p>
+            <p class="font-semibold text-gray-700">Ahmed Abdulkadir <br> ICT Officer at ZATICO</p>
           </blockquote>
         </div>
         <div class="keen-slider__slide number-slide2">
@@ -147,10 +148,10 @@
             </div>
 
             <p class="mt-4 text-gray-700">
-              “Very knowledgeable about the services....”
-              <br />
-              <br />
+              “The team is always available to answer any questions. ZICTIA is very knowledgeable about the services they provide.”
             </p>
+
+            <p class="font-semibold text-gray-700">Yahya Ali <br>  ICT Officer at OR-TMSMIM</p>
           </blockquote>
         </div>
         <div class="keen-slider__slide number-slide3">
@@ -217,14 +218,15 @@
                 </div>
 
                 <p class="mt-0.5 text-lg font-medium text-gray-900">
-                  OR-TMSMIM
+                  ZATICO
                 </p>
               </div>
             </div>
 
             <p class="mt-4 text-gray-700">
-              “ Great support for my company's needs.”....”
+              “Zictia is attentive, personable and professional. The team provided great support for my company's needs.”
             </p>
+            <p class="font-semibold text-gray-700">Ahmed Abdulkadir <br> ICT Officer at ZATICO</p>
           </blockquote>
         </div>
       </div>
