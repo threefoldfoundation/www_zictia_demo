@@ -13,6 +13,15 @@
             </a>
           </div>
         </div>
+        <div
+              class="logo2 inline-flex items-center border-b-2"
+            >
+              <img
+                class="ml-8 h-10 w-auto"
+                src="../assets/imgs/zictia_left.png"
+                alt="Zictia"
+              />
+      </div>
         <div class="absolute inset-y-0 right-0 flex items-center sm:hidden">
           <!-- Mobile menu button -->
           <DisclosureButton
@@ -324,5 +333,11 @@ export default {
 li:has(> a.router-link-active) {
   color: #111827;
   border-color: #3b81f6;
+}
+
+@media (min-width: 640px){
+  .logo2{
+    visibility: hidden;
+  }
 }
 </style>
