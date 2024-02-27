@@ -2,14 +2,19 @@
   <footer class="bg-white" aria-labelledby="footer-heading">
     <div class="mx-auto max-w-7xl px-6 pb-8 pt-8 lg:px-8 lg:pt-16">
       <div class="lg:text-left text-center lg:grid lg:grid-cols-5 lg:gap-4">
-        <div class="space-y-8">
+        <div class="flex flex-wrap justify-center items-center">
           <a href="#">
             <img
-              class="h-16 my-3 mx-auto"
+              class="h-12 mx-3"
               src="../assets/imgs/logo.png"
               alt="Company name"
             />
           </a>
+          <img
+                class="h-12 w-auto mx-3"
+                src="../assets/imgs/zictia_left.png"
+                alt="Zictia"
+              />
           <!-- <p class="text-sm leading-6 text-gray-600">
             Making the world a better place through constructing elegant
             hierarchies.
@@ -114,21 +119,14 @@
           <ul>
             <li>
               <a
-                href="/legal_tenders"
+                href="https://zictia.go.tz/documents/LEGAL_ACT.pdf" target="_blank"
                 class="text-sm font-semibold leading-6 text-blue-800 hover:text-blue-600"
                 >Legals</a
               >
             </li>
             <li>
               <a
-                href="#"
-                class="text-sm font-semibold leading-6 text-blue-800 hover:text-blue-600"
-                >Knowledgebase</a
-              >
-            </li>
-            <li>
-              <a
-                href=""
+                href="/contact"
                 class="text-sm font-semibold leading-6 text-blue-800 hover:text-blue-600"
                 >Customer Support</a
               >
@@ -142,7 +140,7 @@
             </li>
             <li>
               <a
-                href="#"
+                href="https://zictia.go.tz/documents/LEGAL_ACT.pdf" target="_blank"
                 class="text-sm font-semibold leading-6 text-blue-800 hover:text-blue-600"
                 >Privacy Policy</a
               >
