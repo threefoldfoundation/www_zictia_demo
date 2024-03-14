@@ -6,7 +6,7 @@
         'background-image': 'url(' + require('../assets/imgs/' + item.bg) + ')',
       }"
     >
-      <div class="text-center md:max-w-4xl">
+      <div class="text-center md:max-w-4xl mx-2">
         <img :src="item.logo" class="mx-auto my-3" alt="" />
 
         <h1 class="text-lg md:text-4xl font-bold mb-3 md:leading-10">
@@ -23,7 +23,7 @@
     >
       <h3
         v-if="item.blue_title"
-        class="md:text-xl text-lg my-3 py-2 font-medium uppercase tracking-wide"
+        class="md:text-xl text-lg my-3 py-2 px-4 font-medium uppercase tracking-wide"
       >
         {{ item.blue_title }}
       </h3>

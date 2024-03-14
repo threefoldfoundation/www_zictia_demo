@@ -6,22 +6,20 @@
           <div class="flex flex-shrink-0 items-center">
             <a href="/">
               <img
-                class="h-8 w-auto"
-                src="../assets/imgs/logo.png"
+                class="h-10 w-auto"
+                src="../assets/imgs/zictia_left.png"
                 alt="Zictia"
               />
             </a>
           </div>
         </div>
-        <div
-              class="logo2 inline-flex items-center border-b-2"
-            >
-              <img
-                class="ml-8 h-10 w-auto"
-                src="../assets/imgs/zictia_left.png"
-                alt="Zictia"
-              />
-      </div>
+        <div class="logo2 inline-flex items-center border-b-2">
+          <img
+            class="ml-8 h-8 w-auto"
+            src="../assets/imgs/logo.png"
+            alt="Zictia"
+          />
+        </div>
         <div class="absolute inset-y-0 right-0 flex items-center sm:hidden">
           <!-- Mobile menu button -->
           <DisclosureButton
@@ -104,8 +102,8 @@
               class="inline-flex items-center border-b-2 border-transparent hover:border-gray-300"
             >
               <img
-                class="ml-8 h-10 w-auto"
-                src="../assets/imgs/zictia_left.png"
+                class="ml-8 h-8 w-auto"
+                src="../assets/imgs/logo.png"
                 alt="Zictia"
               />
             </li>
@@ -335,8 +333,8 @@ li:has(> a.router-link-active) {
   border-color: #3b81f6;
 }
 
-@media (min-width: 640px){
-  .logo2{
+@media (min-width: 640px) {
+  .logo2 {
     visibility: hidden;
   }
 }
