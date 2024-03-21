@@ -32,6 +32,7 @@ export default {
   },
   data() {
     return {
+      // section1-slider
       sliderItems: [
         {
           bg: "home/home_header.png",
@@ -47,7 +48,6 @@ export default {
           content:
             "Explore our story, mission, and the impactful role we play in shaping a digitally empowered future for all.",
         },
-
         {
           bg: "home/management_header.jpg",
           logo: require("../assets/imgs/home/logo_white.png"),
@@ -56,12 +56,7 @@ export default {
             "Explore our dedicated management team and organizational members shaping the future of ICT infrastructure in Zanzibar.",
         },
       ],
-      backgroundItems: {
-        bg: "home/bottom.png",
-        logo: "logo",
-        title: "title",
-        content: "content",
-      },
+      // section2-Hero
       headerContentItems: [
         {
           photo: require("../assets/imgs/home/innovation.jpg"),
@@ -72,6 +67,7 @@ export default {
           link: "/about",
         },
       ],
+      // section3-Hero blue background
       headerContentBlueItems: [
         {
           photo: require("../assets/imgs/home/data_center.png"),
@@ -84,6 +80,7 @@ export default {
           link: "/fiberRoutes",
         },
       ],
+      // section5-Hero blue background right
       headerWithBgRightItems: [
         {
           photo: require("../assets/imgs/home/innovation.jpg"),
@@ -94,6 +91,13 @@ export default {
           link: "/news",
         },
       ],
+      // section7-background
+      backgroundItems: {
+        bg: "home/bottom.png",
+        logo: "logo",
+        title: "title",
+        content: "content",
+      },
     };
   },
 };

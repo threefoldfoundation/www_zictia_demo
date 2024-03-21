@@ -36,6 +36,7 @@ export default {
 
   data() {
     return {
+      // section1-Hero Header
       HeaderView: [
         {
           bg: "home/about_header.png",
@@ -45,13 +46,18 @@ export default {
             "Explore our story, mission, and the impactful role we play in shaping a digitally empowered future for all.",
         },
       ],
-      backgroundItems: {
-        bg: "home/about_bottom.png",
-        logo: "logo",
-        title: "title",
-        content: "content",
-      },
-
+      // section2-Hero blue
+      headerWithBgRightItems: [
+        {
+          photo: require("../assets/imgs/home/about_zictia.jpg"),
+          title: "Message from ZICTIA’s Executive Director",
+          content:
+            "I trust this message finds you well. As the Director General of Zanzibar Communication Corporation (ZICTIA), I am honoured and privileged to guide a team that is wholeheartedly committed to shaping...",
+          button: "Read More",
+          link: "/manager",
+        },
+      ],
+      // section3-Call to action
       CallToactionitems: [
         {
           title: "About ZICTIA",
@@ -60,6 +66,17 @@ export default {
           content2: "",
         },
       ],
+      // section4-Hero blue left
+      headerContentBlueItems: [
+        {
+          photo: require("../assets/imgs/home/about_support.jpg"),
+
+          title: "Supporting You Around the Clock",
+          content:
+            "With a dedicated team of technical experts available around the clock, we ensure proactive support to address any potential issues promptly. ZICTIA is deeply committed to public education, actively raising awareness about the crucial significance of ICT Infrastructure and advocating for responsible usage of the services we provide.",
+        },
+      ],
+      // section5-Hero
       headerContentItems: [
         {
           photo: require("../assets/imgs/home/about_data.jpg"),
@@ -72,25 +89,7 @@ export default {
           button: "",
         },
       ],
-      headerContentBlueItems: [
-        {
-          photo: require("../assets/imgs/home/about_support.jpg"),
-
-          title: "Supporting You Around the Clock",
-          content:
-            "With a dedicated team of technical experts available around the clock, we ensure proactive support to address any potential issues promptly. ZICTIA is deeply committed to public education, actively raising awareness about the crucial significance of ICT Infrastructure and advocating for responsible usage of the services we provide.",
-        },
-      ],
-      headerWithBgRightItems: [
-        {
-          photo: require("../assets/imgs/home/about_zictia.jpg"),
-          title: "Message from ZICTIA’s Executive Director",
-          content:
-            "I trust this message finds you well. As the Director General of Zanzibar Communication Corporation (ZICTIA), I am honoured and privileged to guide a team that is wholeheartedly committed to shaping...",
-          button: "Read More",
-          link: "/manager",
-        },
-      ],
+      // section6-Product Grid
       FeaturesItems: [
         {
           title: "OBJECTIVE",
@@ -111,6 +110,7 @@ export default {
             "Elevating Zanzibar’s Future: Investing in Cutting-Edge ICT Infrastructure for unmatched digital transformation, catalyzing social and economic progress.",
         },
       ],
+      // section7-testimonials
       FeatureslogosItems: [
         {
           title: "Ahmed Abdulkadir",
@@ -134,6 +134,13 @@ export default {
             "“Zictia is attentive, personable and professional. The team provided great support for my company's needs.”",
         },
       ],
+      // section8-Background
+      backgroundItems: {
+        bg: "home/about_bottom.png",
+        logo: "logo",
+        title: "title",
+        content: "content",
+      },
     };
   },
 };
