@@ -1,7 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/user/public_html/
-    - /usr/local/bin/yarn install
-    - /usr/local/bin/yarn build
-    - /bin/cp -R dist/* $DEPLOYPATH
+    - export DEPLOYPATH=~/public_html/
+    - /bin/cp -R public/* $DEPLOYPATH
