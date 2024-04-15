@@ -2,6 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/mkonga/public_html/
-    - /usr/local/bin/yarn install
-    - /usr/local/bin/yarn build
-    - /bin/cp -R dist/* $DEPLOYPATH
+    - /bin/yarn install
+    - /bin/yarn build
+    - /bin/cp -r dist/* $DEPLOYPATH
