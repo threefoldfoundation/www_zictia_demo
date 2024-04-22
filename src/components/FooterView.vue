@@ -11,10 +11,10 @@
             />
           </a>
           <img
-                class="h-12 w-auto mx-3"
-                src="../assets/imgs/zictia_left.png"
-                alt="Zictia"
-              />
+            class="h-12 w-auto mx-3"
+            src="../assets/imgs/zictia_left.png"
+            alt="Zictia"
+          />
           <!-- <p class="text-sm leading-6 text-gray-600">
             Making the world a better place through constructing elegant
             hierarchies.
@@ -119,7 +119,8 @@
           <ul>
             <li>
               <a
-                href="https://zictia.go.tz/documents/LEGAL_ACT.pdf" target="_blank"
+                href="files/LEGAL_ACTS/LEGAL_ACT.pdf"
+                target="_blank"
                 class="text-sm font-semibold leading-6 text-blue-800 hover:text-blue-600"
                 >Legals</a
               >
@@ -140,7 +141,8 @@
             </li>
             <li>
               <a
-                href="https://zictia.go.tz/documents/LEGAL_ACT.pdf" target="_blank"
+                href="files/LEGAL_ACTS/LEGAL_ACT.pdf"
+                target="_blank"
                 class="text-sm font-semibold leading-6 text-blue-800 hover:text-blue-600"
                 >Privacy Policy</a
               >
