@@ -32,14 +32,14 @@
             both local and international customers...
           </p>
           <br />
-          <a href="/our_services#capacity"
+          <router-link to="/our_services#capacity"
             ><button
               type="button"
               class="mt-2 rounded-md bg-blue-600 px-2.5 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
             >
               Read More
             </button>
-          </a>
+          </router-link>
         </li>
         <!-- Internet service -->
         <li>
@@ -55,13 +55,13 @@
             services, and facilitating seamless video conferencing, and many
             more...
           </p>
-          <a href="/our_services#internet"
+          <router-link to="/our_services#internet"
             ><button
               type="button"
               class="mt-2 rounded-md bg-blue-600 px-2.5 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
             >
               Read More
-            </button></a
+            </button></router-link
           >
         </li>
         <!-- Virtual Machine  -->
@@ -79,13 +79,13 @@
             <br />
             <br />
           </p>
-          <a href="/our_services#vm"
+          <router-link to="/our_services#vm"
             ><button
               type="button"
               class="mt-2 rounded-md bg-blue-600 px-2.5 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
             >
               Read More
-            </button></a
+            </button></router-link
           >
         </li>
         <!-- Co-location  -->
@@ -103,13 +103,13 @@
             <br />
             <br />
           </p>
-          <a href="/our_services#location"
+          <router-link to="/our_services#location"
             ><button
               type="button"
               class="mt-2 rounded-md bg-blue-600 px-2.5 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
             >
               Read More
-            </button></a
+            </button></router-link
           >
         </li>
         <!-- IP-MPLS  -->
@@ -125,13 +125,13 @@
             Technology which allows very fast switching of data. It delivers
             huge perfomance benefits as well as the flexibility....
           </p>
-          <a href="/our_services#ip"
+          <router-link to="/our_services#ip"
             ><button
               type="button"
               class="mt-2 rounded-md bg-blue-600 px-2.5 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
             >
               Read More
-            </button></a
+            </button></router-link
           >
         </li>
         <!-- Private VPN  -->
@@ -147,13 +147,13 @@
             Forwading all network traffic to VPN network, access local network
             resources remotely and bypass internet censorship...
           </p>
-          <a href="/our_services#vpn"
+          <router-link to="/our_services#vpn"
             ><button
               type="button"
               class="mt-2 rounded-md bg-blue-600 px-2.5 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
             >
               Read More
-            </button></a
+            </button></router-link
           >
         </li>
 
