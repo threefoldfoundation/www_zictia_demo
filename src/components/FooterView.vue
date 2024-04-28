@@ -118,33 +118,33 @@
         <div class="font-medium mx-auto my-3">
           <ul>
             <li>
-              <router-link
-                to="files/LEGAL_ACTS/LEGAL_ACT.pdf"
+              <a
+                href="files/LEGAL_ACTS/LEGAL_ACT.pdf"
                 target="_blank"
                 class="text-sm font-semibold leading-6 text-blue-800 hover:text-blue-600"
-                >Legals</router-link
+                >Legals</a
               >
             </li>
             <li>
-              <router-link
-                to="/contact"
+              <a
+                href="/contact"
                 class="text-sm font-semibold leading-6 text-blue-800 hover:text-blue-600"
-                >Customer Support</router-link
+                >Customer Support</a
               >
             </li>
             <li>
-              <router-link
-                to="/faq"
+              <a
+                href="/faq"
                 class="text-sm font-semibold leading-6 text-blue-800 hover:text-blue-600"
-                >FAQ</router-link
+                >FAQ</a
               >
             </li>
             <li>
-              <router-link
-                to="files/LEGAL_ACTS/LEGAL_ACT.pdf"
+              <a
+                href="files/LEGAL_ACTS/LEGAL_ACT.pdf"
                 target="_blank"
                 class="text-sm font-semibold leading-6 text-blue-800 hover:text-blue-600"
-                >Privacy Policy</router-link
+                >Privacy Policy</a
               >
             </li>
           </ul>

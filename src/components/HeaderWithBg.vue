@@ -41,9 +41,9 @@
                   type="button"
                   class="mt-2 rounded-md bg-blue-600 px-4 py-1.5 lg:text-lg text-base font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                 >
-                  <router-link :to="headerContentBlue.link">{{
+                  <a :href="headerContentBlue.link">{{
                     headerContentBlue.button
-                  }}</router-link>
+                  }}</a>
                 </button>
               </div>
               <div class="w-full md:w-auto py-1 md:py-0"></div>

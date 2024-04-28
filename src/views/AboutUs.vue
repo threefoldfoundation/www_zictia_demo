@@ -50,7 +50,7 @@ export default {
       headerWithBgRightItems: [
         {
           photo: require("../assets/imgs/home/about_zictia.jpg"),
-          title: "Message from ZICTIA’s Executive Director",
+          title: "Message from ZICTIA’s Director General",
           content:
             "I trust this message finds you well. As the Director General of Zanzibar Communication Corporation (ZICTIA), I am honoured and privileged to guide a team that is wholeheartedly committed to shaping...",
           button: "Read More",

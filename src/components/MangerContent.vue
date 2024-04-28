@@ -18,7 +18,7 @@
             <h2
               class="text-2xl my-3 md:text-3xl lg:text-5xl leading-none font-semibold tracking-tight text-white"
             >
-              Message from ZICTIA’s Executive Director
+              Message from ZICTIA’s Director General
             </h2>
             <p
               class="my-3 text-base lg:text-lg mx-auto font-normal leading-6 lg:leading-8 text-white"
